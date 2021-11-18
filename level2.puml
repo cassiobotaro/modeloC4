@@ -1,0 +1,32 @@
+@startuml Level2
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Diagrama de contêineres para o Sistema de Internet Banking
+
+SHOW_PERSON_OUTLINE()
+LAYOUT_LEFT_RIGHT()
+
+Person(client, "Cliente bancário pessoal", "Um cliente do banco, com contas pessoais.")
+System_Boundary(ib, "Sistema de Internet Banking"){
+  Container(web, "Aplicativo web", "Java e Spring MVC", "Entrega o conteúdo estático e a aplicação de página única do internet banking.")
+  Container(spa, "Aplicação de página única (SPA)","Javascript e Angular", "Fornece todas as funcionalidades de internet banking aos clientes por meio do navegador da web.")
+  Container(mobile, "Aplicativo móvel", "Xamarin", "Fornece um subconjunto limitado da funcionalidade de internet banking aos clientes por meio de seus dispositivos móveis.")
+  Container(api, "Aplicativo API", "Java e Spring MVC", "Fornece funcionalidade de internet banking via API JSON / HTTPS.")
+  ContainerDb(db, "Banco de Dados", "Oracle Database Schema", "Armazena informações de registro do usuário, credenciais autenticadas com hash, registros de acesso etc.")
+  
+  Rel(web, spa, "Entrega ao navegador da web do cliente")
+  Rel(spa, api, "Faz chamadas de API para", "JSON/HTTPS")
+  Rel(mobile, api, "Faz chamadas de API para", "JSON/HTTPS")
+  Rel(api, db, "Lê e escreve em")
+}
+Rel(client, spa, "Vê os saldos das contas e faz pagamentos usando")
+Rel(client, mobile, "Vê os saldos das contas e faz pagamentos usando")
+Rel(client, web, "Visita bigbank.com/ib usando")
+
+System_Ext(email, "Sistema de E-mail", "O sistema de email interno Microsoft Exchange.")
+Rel(email, client, "Envia e-mail para")
+Rel(api, email, "Envia e-mail usando", "SMTP")
+System_Ext(mainframe, "Sistema Bancário Mainframe", "Armazena todas as informações bancárias básicas sobre clientes, contas, transações etc.")
+Rel(api, mainframe, "Faz chamadas de API para", "XML/HTTPS")
+@enduml
