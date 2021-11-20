@@ -1,14 +1,14 @@
 @startuml Hidden
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
-Container(A, "Container A", "python", "Produtor de eventos para a fila")
-Container(B, "Container B", "java", "Consumidor de eventos da fila")
-Container(C, "Container C", "nodejs", "Produtor de eventos para a fila")
-Container(middle, "RabbitMQ", "rabbitmq", "Broker de mensagens")
-Container(D, "Container D", "go", "Consumidor de eventos da fila")
+Container(A, "Container A", "Python", "Produtor de eventos para a fila.")
+Container(B, "Container B", "Java", "Consumidor de eventos da fila.")
+Container(C, "Container C", "Nodejs", "Produtor de eventos para a fila.")
+ContainerQueue(middle, "Intermediário", "Rabbitmq", "Envia mensagens para seus respectivos consumidores.")
+Container(D, "Container D", "Go", "Consumidor de eventos da fila.")
 
-Rel(A, middle, "envia mensagem para", "amqp")
-Rel(C, middle, "envia mensagem para", "amqp")
-Rel(middle, B, "consome mensagem", "amqp")
-Rel(middle, D, "consome mensagem", "amqp")
+Rel(A, middle, "Envia mensagem para", "amqp")
+Rel(C, middle, "Envia mensagem para", "amqp")
+Rel(middle, B, "Consome mensagem", "amqp")
+Rel(middle, D, "Consome mensagem", "amqp")
 @enduml

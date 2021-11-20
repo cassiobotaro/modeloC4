@@ -3,9 +3,9 @@
 
 SHOW_PERSON_PORTRAIT()
 
-Person(user, "Cliente", "Pessoa que precisa de produtos")
-Container(spa, "SPA", "angular", "A principal interface com a qual o cliente interage.")
-Container(api, "API", "java", "Lida com todas as lógicas de negócios.")
+Person(user, "Cliente", "Pessoa que precisa de produtos.")
+Container(spa, "SPA", "Angular", "A principal interface com a qual o cliente interage.")
+Container(api, "API", "Java", "Lida com todas as lógicas de negócios.")
 ContainerDb(db, "Banco de Dados", "Microsoft SQL", "Contém informações sobre produtos, pedidos e faturas.")
 
 Rel(user, spa, "Usa", "https")
