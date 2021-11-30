@@ -8,8 +8,8 @@ Person(person, "Nome da pessoa", "Descrição.")
 Boundary(boundary, "Nome", "Container ou Software System") {
 }
 
-System(system, "Nome do sistema", "Descrição")
+System(system, "Nome do sistema", "Descrição.")
 Container(container, "Nome do contêiner", "Tecnologia", "Descrição.")
-Rel(system, container, "relação")
+Rel(system, container, "Relação", "Tecnologia")
 Component(component, "Nome do componente", "Tecnologia", "Descrição.")
 @enduml
