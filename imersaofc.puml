@@ -1,0 +1,51 @@
+@startuml imersao
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.4.0
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define CLOUDOGUURL https://raw.githubusercontent.com/cloudogu/plantuml-cloudogu-sprites/master
+
+!includeurl ICONURL/devicons/go.puml
+!includeurl ICONURL/devicons/nodejs.puml
+!include DEVICONS/mysql.puml
+!include DEVICONS/react.puml
+!includeurl CLOUDOGUURL/tools/prometheus.puml
+!includeurl CLOUDOGUURL/tools/grafana.puml
+AddRelTag("async", $lineStyle = DashedLine())
+
+title "Diagrama de Conteineres do Sistema da Imersão Full Cycle"
+
+SHOW_PERSON_PORTRAIT()
+
+System_Ext(client,"Client","Sistema que solicita o pagamento")
+Person(user,"Administrador","Acompanha as transações de pagamento")
+Person(superadmin,"Administrador da Gateway","Acompanha as métricas de transações de pagamento")
+
+System_Boundary(gateway, "Full Cycle Gateway"){
+Container(backend,"Backend","Nest.js","Sistema que recebe a solicitação de pagamento", $sprite = "nodejs")
+
+Container(processor,"Processador de pagamentos","Go","Processa pagamento: autorizando ou rejeitando",$sprite = "go")
+
+ContainerDb(mysql_backend,"Banco de dados","MySQL","Armazena as transações de pagamento",$sprite = "mysql")
+ContainerDb(mysql_processor,"Banco de dados","MySQL","Armazena as transações de pagamento",$sprite = "mysql")
+
+Container(prometheus,"Métricas de pagamento","Prometheus","Armazena métricas de pagamento", $sprite = "prometheus")
+Rel(prometheus,processor,"Consume métricas de pagamento em","HTTP/TXT")
+
+Container(grafana,"Dashboard de métricas","Grafana","Exibe métricas de pagamentos", $sprite = "grafana")
+Rel(grafana,prometheus,"Consume métricas de pagamento em","PromQL")
+
+Rel(superadmin,grafana,"Consume métricas de pagamento em","HTTPS")
+
+Container(frontend,"Painel de Controle","Next.js","Monitora as transações de pagamento e seus status", $sprite = "react")
+Rel(user,frontend,"solicita dados das transações em","HTTPS")
+Rel(frontend,backend,"Recupera informações de pagamento","HTTPS/JSON")
+
+Rel(processor,mysql_processor,"Recebe dados do pagamento","MySQL Protocol")
+
+Rel(backend,mysql_backend,"Recebe dados do pagamento","MySQL Protocol")
+Rel(client,backend,"solicita pagamento em","HTTP/JSON")
+Rel(backend,processor,"envia dados de pagamento para","Através do Kafka pelo tópico transactions",$tags = "async")
+Rel(processor,backend,"envia resultado da transação","Através do Kafka pelo tópico transactions_result",$tags = "async")
+}
+@enduml
