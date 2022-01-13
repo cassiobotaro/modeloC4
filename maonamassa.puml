@@ -1,0 +1,14 @@
+@startuml cms
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+title "Mão na massa CMS"
+
+Person(client, "Usuário", "Consumidor de conteúdo.")
+Person(admin, "Admin", "Administrador de conteúdo.")
+
+Container(frontweb, "Plataforma WEB - SPA", "Vue.js", "Prover conteúdo para usuarios e acesso administrativo ao CMS.")
+Container(frontmobile, "Mobile", "Flutter", "Prover conteúdo para usuarios e acesso administrativo ao CMS.")
+
+' Container(backapi, "")
+
+@enduml
