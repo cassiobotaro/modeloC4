@@ -1,11 +1,36 @@
 # Modelo C4 para documentação de arquiteturas
 
+**Update:** Uma atualização foi feita no repositório e os modelos foram reescritos utilizando a ferramenta [Structurizr Lite](https://structurizr.com/help/lite).
+
 Este repositório contém todos os diagramas contidos na apresentação do modelo C4.
 
 [PlantUML](https://plantuml.com/) foi utilizado em conjunto com [C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML) para gerar os diagramas.
 
 
 ## Gerando os diagramas
+
+### Structurizr lite
+
+Escrevi uma função para facilitar a utilização do comando:
+
+```bash
+# structurizr
+function structurizr() {
+    readonly file=${1:?"The file must be specified."}
+    docker run --rm -it \
+        -p 8080:8080 \
+        -v "$PWD/$file":/usr/local/structurizr/workspace.dsl \
+            structurizr/lite
+}
+```
+
+Ela será invocada da seguinte maneira:
+
+```bash
+structurizr nome_do_arquivo.dsl
+```
+
+### PlantUML
 
 O [VS Code](https://code.visualstudio.com/) possui um plugin para PlantUML que pode ser encontrado na marketplace: [PlantUML for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml).
 
@@ -19,4 +44,4 @@ Abra os arquivos de extensão `.puml` ou copie seu conteúdo para o editor ou na
 
 Caso esteja utilizando a versão online, clique no botão `Render` para gerar a imagem.
 
-Se estiver rodando localmente, aperte `ALT + D` para ter uma pré visualização, ou `CTRL + SHIFT + P` e selecione a opção de exportar a imagem ou pré visualização. 
+Se estiver rodando localmente, aperte `ALT + D` para ter uma pré visualização, ou `CTRL + SHIFT + P` e selecione a opção de exportar a imagem ou pré visualização.
