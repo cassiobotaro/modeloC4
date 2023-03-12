@@ -1,0 +1,39 @@
+{
+  "name": "CMS theme",
+  "description": "Theme used by CMS example",
+  "elements": [
+    {
+      "tag": "db",
+      "shape": "Cylinder"
+    },
+    {
+      "tag": "web",
+      "shape": "WebBrowser"
+    },
+    {
+      "tag": "storage",
+      "shape": "Folder"
+    },
+    {
+      "tag": "mobile",
+      "shape": "MobileDevicePortrait",
+      "icon": "mobile_alt.png"
+    },
+    {
+      "tag": "queue",
+      "shape": "Pipe"
+    },
+    {
+      "tag": "django",
+      "icon": "django.png"
+    },
+    {
+      "tag": "aws",
+      "icon": "aws.png"
+    },
+    {
+      "tag": "postgres",
+      "icon": "postgresql.png"
+    }
+  ]
+}
