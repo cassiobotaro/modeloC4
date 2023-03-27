@@ -41,16 +41,6 @@ workspace "Imersão Full Cycle" {
             region = deploymentNode "US-East-1" {
                 tags "Amazon Web Services - Region"
 
-                route53 = infrastructureNode "Route 53" {
-                    description "Highly available and scalable cloud DNS service."
-                    tags "Amazon Web Services - Route 53"
-                }
-
-                elb = infrastructureNode "Elastic Load Balancer" {
-                    description "Automatically distributes incoming application traffic."
-                    tags "Amazon Web Services - Elastic Load Balancing"
-                }
-
                 deploymentNode "Autoscaling group frontend" {
                     tags "Amazon Web Services - Auto Scaling"
 
@@ -101,8 +91,6 @@ workspace "Imersão Full Cycle" {
                         containerInstance mysql_processor
                     }
                 }
-                route53 -> elb "Redireciona requisições para" "HTTPS"
-                elb -> frontInstance "Redireciona requisições para" "HTTPS"
             }
         }
     }
