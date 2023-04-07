@@ -16,10 +16,19 @@ Escrevi uma função para facilitar a utilização do comando:
 ```bash
 # structurizr
 function structurizr() {
-    readonly file=${1:?"The file must be specified."}
+    readonly file=${1:?"The workspace filename must be specified."}
+    if [[ "$file" == *.* ]]; then
+        echo "The workspace filename should not contains a file extension."
+        return 1
+    fi
+    if [[ !  -f "./structurizr.properties" ]]; then
+        echo "structurizr.autoRefreshInterval=2000" > structurizr.properties
+    fi
     docker run --rm -it \
         -p 8080:8080 \
-        -v "$PWD/$file":/usr/local/structurizr/workspace.dsl \
+        -u $(id -u ${USER}):$(id -g ${USER}) \
+        -v "$PWD":/usr/local/structurizr/ \
+        -e STRUCTURIZR_WORKSPACE_FILENAME=$file \
             structurizr/lite
 }
 ```
