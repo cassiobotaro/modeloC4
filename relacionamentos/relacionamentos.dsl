@@ -1,4 +1,3 @@
-
 workspace "Relacionamentos" {
     model {
         sysa = element "Sistema de Dados Comerciais" "Software System" "Um sistema de dados comerciais."

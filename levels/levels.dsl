@@ -64,7 +64,7 @@ workspace "Levels" {
             autoLayout
         }
 
-        container ib "Containers" "Teste"{
+        container ib "Containers"{
             include *
             autoLayout
         }
