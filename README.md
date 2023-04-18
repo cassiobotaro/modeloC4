@@ -36,7 +36,7 @@ function structurizr() {
 Ela será invocada da seguinte maneira:
 
 ```bash
-structurizr nome_do_arquivo.dsl
+structurizr nome_do_arquivo_sem_extensão
 ```
 
 ### PlantUML
