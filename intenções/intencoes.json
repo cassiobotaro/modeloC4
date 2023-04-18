@@ -1,0 +1,206 @@
+{
+  "id" : 1,
+  "name" : "Intenções",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-04-18T00:25:45Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJJbnRlbsOnw7VlcyIgewoKICAgIG1vZGVsIHsKICAgICAgICBhID0gZWxlbWVudCAiQ29udGFpbmVyIEEiICJQcm9kdXRvciBkZSBldmVudG9zIHBhcmEgYSBmaWxhLiIgIlB5dGhvbiIKICAgICAgICBiID0gZWxlbWVudCAiQ29udGFpbmVyIEIiICJDb25zdW1pZG9yIGRlIGV2ZW50b3MgZGEgZmlsYSIgIkphdmEiCiAgICAgICAgYyA9IGVsZW1lbnQgIkNvbnRhaW5lciBDIiAiUHJvZHV0b3IgZGUgZXZlbnRvcyBwYXJhIGEgZmlsYS4iICJOb2RlSlMiCiAgICAgICAgZCA9IGVsZW1lbnQgIkNvbnRhaW5lciBEIiAiQ29uc3VtaWRvciBkZSBldmVudG9zIGRhIGZpbGEiICJHbyIKICAgICAgICBtZWlvID0gZWxlbWVudCAiSW50ZXJtZWRpw6FyaW8iICJSYWJiaXRNUSIgIkVudmlhIG1lbnNhZ2VucyBwYXJhIHNldXMgcmVzcGVjdGl2b3MgY29uc3VtaWRvcmVzLiIgImFudGVzIgoKICAgICAgICBhIC0+IG1laW8gIkVudmlhIG1lbnNhZ2VtIHBhcmEiICJhbXFwIiAiYW50ZXMiCiAgICAgICAgYyAtPiBtZWlvICJFbnZpYSBtZW5zYWdlbSBwYXJhIiAiYW1xcCIgImFudGVzIgogICAgICAgIG1laW8gLT4gYiAiQ29uc29tZSBtZW5zYWdlbSIgImFtcXAiICJhbnRlcyIKICAgICAgICBtZWlvIC0+IGQgIkNvbnNvbWUgbWVuc2FnZW0iICJhbXFwIiAiYW50ZXMiCgogICAgICAgIGEgLT4gYiAiRW52aWEgbWVuc2FnZW0gZGUgY3JpYcOnw6NvIGRlIHVzdcOhcmlvIiAidmlhIFJhYmJpdE1RIGZpbGEgQ1JFQVRFIiAiZGVwb2lzIgogICAgICAgIGMgLT4gZCAiRW52aWEgbWVuc2FnZW0gZGUgYXR1YWxpemHDp8OjbyBkZSB1c3XDoXJpbyIgInZpYSBSYWJiaXRNUSBmaWxhIFVQREFURSIgImRlcG9pcyIKCiAgICB9CgogICAgdmlld3MgewoKICAgICAgICBjdXN0b20gIkludGVuY29lc0FudGVzIiAiSW50ZW7Dp8O1ZXMgQW50ZXMiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGV4Y2x1ZGUgcmVsYXRpb25zaGlwLnRhZz09ZGVwb2lzCiAgICAgICAgICAgIGF1dG9MYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGN1c3RvbSAiSW50ZW5jb2VzRGVwb2lzIiAiSW50ZW7Dp8O1ZXMgRGVwb2lzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBleGNsdWRlIGVsZW1lbnQudGFnPT1hbnRlcwogICAgICAgICAgICBleGNsdWRlIHJlbGF0aW9uc2hpcC50YWc9PWFudGVzCiAgICAgICAgICAgIGF1dG9MYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRWxlbWVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNDM4ZGQ1CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "customElements" : [ {
+      "id" : "3",
+      "tags" : "Element",
+      "properties" : {
+        "structurizr.dsl.identifier" : "c"
+      },
+      "name" : "Container C",
+      "description" : "NodeJS",
+      "relationships" : [ {
+        "id" : "7",
+        "tags" : "Relationship,antes",
+        "sourceId" : "3",
+        "destinationId" : "5",
+        "description" : "Envia mensagem para",
+        "technology" : "amqp"
+      }, {
+        "id" : "11",
+        "tags" : "Relationship,depois",
+        "sourceId" : "3",
+        "destinationId" : "4",
+        "description" : "Envia mensagem de atualização de usuário",
+        "technology" : "via RabbitMQ fila UPDATE"
+      } ],
+      "metadata" : "Produtor de eventos para a fila."
+    }, {
+      "id" : "5",
+      "tags" : "Element,antes",
+      "properties" : {
+        "structurizr.dsl.identifier" : "meio"
+      },
+      "name" : "Intermediário",
+      "description" : "Envia mensagens para seus respectivos consumidores.",
+      "relationships" : [ {
+        "id" : "8",
+        "tags" : "Relationship,antes",
+        "sourceId" : "5",
+        "destinationId" : "2",
+        "description" : "Consome mensagem",
+        "technology" : "amqp"
+      }, {
+        "id" : "9",
+        "tags" : "Relationship,antes",
+        "sourceId" : "5",
+        "destinationId" : "4",
+        "description" : "Consome mensagem",
+        "technology" : "amqp"
+      } ],
+      "metadata" : "RabbitMQ"
+    }, {
+      "id" : "2",
+      "tags" : "Element",
+      "properties" : {
+        "structurizr.dsl.identifier" : "b"
+      },
+      "name" : "Container B",
+      "description" : "Java",
+      "metadata" : "Consumidor de eventos da fila"
+    }, {
+      "id" : "1",
+      "tags" : "Element",
+      "properties" : {
+        "structurizr.dsl.identifier" : "a"
+      },
+      "name" : "Container A",
+      "description" : "Python",
+      "relationships" : [ {
+        "id" : "10",
+        "tags" : "Relationship,depois",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Envia mensagem de criação de usuário",
+        "technology" : "via RabbitMQ fila CREATE"
+      }, {
+        "id" : "6",
+        "tags" : "Relationship,antes",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Envia mensagem para",
+        "technology" : "amqp"
+      } ],
+      "metadata" : "Produtor de eventos para a fila."
+    }, {
+      "id" : "4",
+      "tags" : "Element",
+      "properties" : {
+        "structurizr.dsl.identifier" : "d"
+      },
+      "name" : "Container D",
+      "description" : "Go",
+      "metadata" : "Consumidor de eventos da fila"
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "customViews" : [ {
+      "key" : "IntencoesDepois",
+      "order" : 2,
+      "title" : "Intenções Depois",
+      "dimensions" : {
+        "width" : 1600,
+        "height" : 1300
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "relationships" : [ {
+        "id" : "11"
+      }, {
+        "id" : "10"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 200,
+        "y" : 800
+      }, {
+        "id" : "2",
+        "x" : 950,
+        "y" : 800
+      }, {
+        "id" : "3",
+        "x" : 200,
+        "y" : 200
+      }, {
+        "id" : "4",
+        "x" : 950,
+        "y" : 200
+      } ]
+    }, {
+      "key" : "IntencoesAntes",
+      "order" : 1,
+      "title" : "Intenções Antes",
+      "dimensions" : {
+        "width" : 2350,
+        "height" : 1300
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "relationships" : [ {
+        "id" : "6"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "9"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 200,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 1700,
+        "y" : 200
+      }, {
+        "id" : "3",
+        "x" : 200,
+        "y" : 800
+      }, {
+        "id" : "4",
+        "x" : 1700,
+        "y" : 800
+      }, {
+        "id" : "5",
+        "x" : 950,
+        "y" : 500
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Element",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "IntencoesDepois"
+    }
+  }
+}
