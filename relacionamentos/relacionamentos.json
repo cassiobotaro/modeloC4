@@ -1,0 +1,171 @@
+{
+  "id" : 1,
+  "name" : "Relacionamentos",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-04-18T00:30:28Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJSZWxhY2lvbmFtZW50b3MiIHsKICAgIG1vZGVsIHsKICAgICAgICBzeXNhID0gZWxlbWVudCAiU2lzdGVtYSBkZSBEYWRvcyBDb21lcmNpYWlzIiAiU29mdHdhcmUgU3lzdGVtIiAiVW0gc2lzdGVtYSBkZSBkYWRvcyBjb21lcmNpYWlzLiIKICAgICAgICBzeXNiID0gZWxlbWVudCAiU2lzdGVtYSBkZSBSaXNjbyBGaW5hbmNlaXJvIiAiU29mdHdhcmUgU3lzdGVtIiAiVW0gc2lzdGVtYSBkZSByaXNjbyBmaW5hbmNlaXJvLiIKICAgICAgICBzeXNhIC0+IHN5c2IgIkRhZG9zIENvbWVyY2lhaXMiICIiICJhbnRlcyIKICAgICAgICBzeXNhIC0+IHN5c2IgIkVudmlhIGRhZG9zIGNvbWVyY2lhaXMgcGFyYSIgIiIgImRlcG9pcyIKCiAgICAgICAgc3BhID0gZWxlbWVudCAiQXBsaWNhdGl2byBkZSBQw6FnaW5hIMOabmljYSIgIkNvbnRhaW5lcjogTmVzdEpTIiAiRm9ybmVjZSBhY2Vzc28gYSBww6FnaW5hcyB3ZWIuIgogICAgICAgIGFwaSA9IGVsZW1lbnQgIkFwbGljYXRpdm8gQVBJIiAiQ29udGFpbmVyOiBQeXRob24gZSBGYXN0QVBJIiAiRm9ybmVjZSBBUEkgZGUgZGFkb3MuIgogICAgICAgIHNwYSAtPiBhcGkgIlVzYSIgIiIgImFudGVzIgogICAgICAgIHNwYSAtPiBhcGkgIkZheiBjaGFtYWRhcyBkZSBBUEkgdXRpbGl6YW5kbyIgIiIgImRlcG9pcyIKICAgIH0KCgogICAgdmlld3MgewoKICAgICAgICBjdXN0b20gIlJlbGFjaW9uYW1lbnRvc0FudGVzIiAiUmVsYWNpb25hbWVudG9zIEFudGVzInsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGV4Y2x1ZGUgcmVsYXRpb25zaGlwLnRhZz09ZGVwb2lzCiAgICAgICAgICAgIGF1dG9MYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGN1c3RvbSAiUmVsYWNpb25hbWVudG9zRGVwb2lzIiAiUmVsYWNpb25hbWVudG9zIERlcG9pcyJ7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBleGNsdWRlIHJlbGF0aW9uc2hpcC50YWc9PWFudGVzCiAgICAgICAgICAgIGF1dG9MYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiRWxlbWVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjNDM4ZGQ1CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "customElements" : [ {
+      "id" : "2",
+      "tags" : "Element",
+      "properties" : {
+        "structurizr.dsl.identifier" : "sysb"
+      },
+      "name" : "Sistema de Risco Financeiro",
+      "description" : "Um sistema de risco financeiro.",
+      "metadata" : "Software System"
+    }, {
+      "id" : "1",
+      "tags" : "Element",
+      "properties" : {
+        "structurizr.dsl.identifier" : "sysa"
+      },
+      "name" : "Sistema de Dados Comerciais",
+      "description" : "Um sistema de dados comerciais.",
+      "relationships" : [ {
+        "id" : "4",
+        "tags" : "Relationship,depois",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Envia dados comerciais para"
+      }, {
+        "id" : "3",
+        "tags" : "Relationship,antes",
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Dados Comerciais"
+      } ],
+      "metadata" : "Software System"
+    }, {
+      "id" : "5",
+      "tags" : "Element",
+      "properties" : {
+        "structurizr.dsl.identifier" : "spa"
+      },
+      "name" : "Aplicativo de Página Única",
+      "description" : "Fornece acesso a páginas web.",
+      "relationships" : [ {
+        "id" : "7",
+        "tags" : "Relationship,antes",
+        "sourceId" : "5",
+        "destinationId" : "6",
+        "description" : "Usa"
+      }, {
+        "id" : "8",
+        "tags" : "Relationship,depois",
+        "sourceId" : "5",
+        "destinationId" : "6",
+        "description" : "Faz chamadas de API utilizando"
+      } ],
+      "metadata" : "Container: NestJS"
+    }, {
+      "id" : "6",
+      "tags" : "Element",
+      "properties" : {
+        "structurizr.dsl.identifier" : "api"
+      },
+      "name" : "Aplicativo API",
+      "description" : "Fornece API de dados.",
+      "metadata" : "Container: Python e FastAPI"
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "customViews" : [ {
+      "key" : "RelacionamentosAntes",
+      "order" : 1,
+      "title" : "Relacionamentos Antes",
+      "dimensions" : {
+        "width" : 1600,
+        "height" : 1300
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 199,
+        "y" : 799
+      }, {
+        "id" : "2",
+        "x" : 949,
+        "y" : 799
+      }, {
+        "id" : "5",
+        "x" : 199,
+        "y" : 199
+      }, {
+        "id" : "6",
+        "x" : 949,
+        "y" : 199
+      } ],
+      "relationships" : [ {
+        "id" : "3"
+      }, {
+        "id" : "7"
+      } ]
+    }, {
+      "key" : "RelacionamentosDepois",
+      "order" : 2,
+      "title" : "Relacionamentos Depois",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 1616,
+        "height" : 1316
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 808
+      }, {
+        "id" : "2",
+        "x" : 958,
+        "y" : 808
+      }, {
+        "id" : "5",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "6",
+        "x" : 958,
+        "y" : 208
+      } ],
+      "relationships" : [ {
+        "id" : "4"
+      }, {
+        "id" : "8"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Element",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "RelacionamentosAntes"
+    }
+  }
+}
