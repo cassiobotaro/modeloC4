@@ -1,0 +1,319 @@
+{
+  "id" : 1,
+  "name" : "CMS",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-04-18T00:32:23Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJDTVMiIHsKICAgIG1vZGVsIHsKICAgICAgICByZWFkZXIgPSBwZXJzb24gIkxlaXRvciIgIlBlc3NvYSBxdWUgY29uc29tZSBhcyBub3TDrWNpYXMgZG8gc2l0ZS4iCiAgICAgICAgd3JpdGVyID0gcGVyc29uICJFZGl0b3IiICJQZXNzb2EgcXVlIGVzY3JldmUgY29udGXDumRvIHBhcmEgbyBzaXRlLiIKCiAgICAgICAgY21zID0gc29mdHdhcmVzeXN0ZW0gIkNNUyIgIlNpc3RlbWEgZGUgZ2VyZW5jaWFtZW50byBkZSBjb250ZcO6ZG8uInsKICAgICAgICAgICAgcG9ydGFsID0gY29udGFpbmVyICJQb3J0YWwgZGUgTm90w61jaWFzIiAiU2l0ZSBxdWUgZm9ybmVjZSBhcyBub3TDrWNpYXMgZSBjb250ZcO6ZG9zLiBQb3NzdWkgw6FyZWEgYWNlc3PDrXZlbCBzb21lbnRlIHBhcmEgZWRpdG9yZXMuIiAiUHl0aG9uIGFuZCBEamFuZ28iICJkamFuZ28iCiAgICAgICAgICAgIGRiID0gY29udGFpbmVyICJCYW5jbyBkZSBEYWRvcyIgIkFybWF6ZW5hIG5vdMOtY2lhcyBlIGluZm9ybWHDp8O1ZXMgc29icmUgdXN1w6FyaW9zLiIgIlBvc3RncmVzcWwiICJkYiIKICAgICAgICAgICAgc3RvcmFnZSA9IGNvbnRhaW5lciAiQXJtYXplbmFtZW50byBkZSBpbWFnZW5zIiAiQXJtYXplbmEgaW1hZ2VucyBxdWUgc2Vyw6NvIHV0aWxpemFkYXMgbmFzIG5vdMOtY2lhcyBlIG5vIGNvbnRlw7pkbyBkbyBwb3J0YWwuIiAiQnVja2V0IFMzIiAic3RvcmFnZSwgYXdzIgogICAgICAgICAgICBtb2JpbGUgPSBjb250YWluZXIgIkFwbGljYXRpdm8gbcOzdmVsIiAiQXBsaWNhdGl2byBxdWUgcGVybWl0ZSBvIGFjZXNzbyBhbyBjb250ZcO6ZG8gZSDDoHMgbm90w61jaWFzIGRvIHBvcnRhbC4iICJBbmRyb2lkL2lPUyIgIm1vYmlsZSIKICAgICAgICAgICAgcXVldWUgPSBjb250YWluZXIgIkZpbGEgZGUgcHJvY2Vzc2FtZW50byBlbSBzZWd1bmRvIHBsYW5vIiAiUmVjZWJlIGV2ZW50b3MgZGUgY3JpYcOnw6NvIGRlIGltYWdlbSBwYXJhIHNlcmVtIGNvbnN1bWlkb3MgcGVsbyBwcm9jZXNzYWRvci4iICJSYWJiaXRNUSIgInF1ZXVlIgogICAgICAgICAgICB3b3JrZXIgPSBjb250YWluZXIgIlByb2Nlc3NhZG9yIGRlIEltYWdlbnMiICJQcm9jZXNzYSBpbWFnZW5zIG90aW1pemFuZG8tYXMgZSBnZXJhbmRvIHRodW1ibmFpbHMuIiAiUHl0aG9uIiAid29ya2VyIgogICAgICAgIH0KCiAgICAgICAgcmVhZGVyIC0+IHBvcnRhbCAiQ29uc29tZSBub3TDrWNpYXMgZSBjb250ZcO6ZG8gZW0iCiAgICAgICAgcmVhZGVyIC0+IG1vYmlsZSAiQ29uc29tZSBub3TDrWNpYXMgZSBjb250ZcO6ZG8gZW0iCiAgICAgICAgd3JpdGVyIC0+IHBvcnRhbCAiRXNjcmV2ZSBjb250ZcO6ZG8gZW0iCiAgICAgICAgbW9iaWxlIC0+IHBvcnRhbCAiQ29uc29tZSBub3TDrWNpYXMgZSBjb250ZcO6ZG8gZW0iICJIVFRQUy9KU09OIgogICAgICAgIHBvcnRhbCAtPiBkYiAiTMOqIGRlIGUgZXNjcmV2ZSBlbSIgIlBvc3RncmVzcWwgUHJvdG9jb2wiCiAgICAgICAgcG9ydGFsIC0+IHN0b3JhZ2UgIkzDqiBkZSBlIGVzY3JldmUgZW0iICJIVFRQUy9KU09OIgogICAgICAgIHBvcnRhbCAtPiBxdWV1ZSAiRW52aWEgZXZlbnRvIGRlIGFkacOnw6NvIGRlIG5vdmEgaW1hZ2VtIHBhcmEiICJBTVFQIgogICAgICAgIHdvcmtlciAtPiBxdWV1ZSAiQ29uc29tZSBldmVudG9zIGRlIiAiQU1RUCIKICAgICAgICB3b3JrZXIgLT4gc3RvcmFnZSAiRXNjcmV2ZSBpbWFnZW5zIGVtIiAiSFRUUFMvSlNPTiIKICAgICAgICBwb3J0YWwgLT4gc3RvcmFnZSAiQ29uc29tZSBjb250ZcO6ZG8gZXN0w6F0aWNvIGRlIiAiSFRUUFMvSlNPTiIKICAgIH0KCiAgICB2aWV3cyB7CgogICAgICAgIHN5c3RlbWNvbnRleHQgY21zICJTeXN0ZW1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgY21zICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgdGhlbWVzIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jYXNzaW9ib3Rhcm8vbW9kZWxvQzQvbWFpbi9jbXMvdGhlbWUuanNvbgogICAgfQp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "writer"
+      },
+      "name" : "Editor",
+      "description" : "Pessoa que escreve conteúdo para o site.",
+      "relationships" : [ {
+        "id" : "13",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Escreve conteúdo em"
+      }, {
+        "id" : "14",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Escreve conteúdo em",
+        "linkedRelationshipId" : "13"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "reader"
+      },
+      "name" : "Leitor",
+      "description" : "Pessoa que consome as notícias do site.",
+      "relationships" : [ {
+        "id" : "12",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "7",
+        "description" : "Consome notícias e conteúdo em"
+      }, {
+        "id" : "10",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Consome notícias e conteúdo em"
+      }, {
+        "id" : "11",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Consome notícias e conteúdo em",
+        "linkedRelationshipId" : "10"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "cms"
+      },
+      "name" : "CMS",
+      "description" : "Sistema de gerenciamento de conteúdo.",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container,worker",
+        "properties" : {
+          "structurizr.dsl.identifier" : "worker"
+        },
+        "name" : "Processador de Imagens",
+        "description" : "Processa imagens otimizando-as e gerando thumbnails.",
+        "relationships" : [ {
+          "id" : "20",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "6",
+          "description" : "Escreve imagens em",
+          "technology" : "HTTPS/JSON"
+        }, {
+          "id" : "19",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "8",
+          "description" : "Consome eventos de",
+          "technology" : "AMQP"
+        } ],
+        "technology" : "Python",
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container,django",
+        "properties" : {
+          "structurizr.dsl.identifier" : "portal"
+        },
+        "name" : "Portal de Notícias",
+        "description" : "Site que fornece as notícias e conteúdos. Possui área acessível somente para editores.",
+        "relationships" : [ {
+          "id" : "18",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "8",
+          "description" : "Envia evento de adição de nova imagem para",
+          "technology" : "AMQP"
+        }, {
+          "id" : "21",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "6",
+          "description" : "Consome conteúdo estático de",
+          "technology" : "HTTPS/JSON"
+        }, {
+          "id" : "16",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "5",
+          "description" : "Lê de e escreve em",
+          "technology" : "Postgresql Protocol"
+        }, {
+          "id" : "17",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "6",
+          "description" : "Lê de e escreve em",
+          "technology" : "HTTPS/JSON"
+        } ],
+        "technology" : "Python and Django",
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container,mobile",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mobile"
+        },
+        "name" : "Aplicativo móvel",
+        "description" : "Aplicativo que permite o acesso ao conteúdo e às notícias do portal.",
+        "relationships" : [ {
+          "id" : "15",
+          "tags" : "Relationship",
+          "sourceId" : "7",
+          "destinationId" : "4",
+          "description" : "Consome notícias e conteúdo em",
+          "technology" : "HTTPS/JSON"
+        } ],
+        "technology" : "Android/iOS",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,queue",
+        "properties" : {
+          "structurizr.dsl.identifier" : "queue"
+        },
+        "name" : "Fila de processamento em segundo plano",
+        "description" : "Recebe eventos de criação de imagem para serem consumidos pelo processador.",
+        "technology" : "RabbitMQ",
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,db",
+        "properties" : {
+          "structurizr.dsl.identifier" : "db"
+        },
+        "name" : "Banco de Dados",
+        "description" : "Armazena notícias e informações sobre usuários.",
+        "technology" : "Postgresql",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,storage,aws",
+        "properties" : {
+          "structurizr.dsl.identifier" : "storage"
+        },
+        "name" : "Armazenamento de imagens",
+        "description" : "Armazena imagens que serão utilizadas nas notícias e no conteúdo do portal.",
+        "technology" : "Bucket S3",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "SystemContext",
+      "order" : 1,
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 1500,
+        "height" : 1400
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "14"
+      }, {
+        "id" : "11"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 200,
+        "y" : 199
+      }, {
+        "id" : "2",
+        "x" : 900,
+        "y" : 199
+      }, {
+        "id" : "3",
+        "x" : 525,
+        "y" : 899
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Containers",
+      "order" : 2,
+      "softwareSystemId" : "3",
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 3170,
+        "height" : 2662
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "13",
+        "vertices" : [ {
+          "x" : 1358,
+          "y" : 2008
+        }, {
+          "x" : 1658,
+          "y" : 1379
+        } ]
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "10",
+        "vertices" : [ {
+          "x" : 1358,
+          "y" : 1033
+        } ]
+      }, {
+        "id" : "19"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 833
+      }, {
+        "id" : "2",
+        "x" : 933,
+        "y" : 2037
+      }, {
+        "id" : "4",
+        "x" : 1658,
+        "y" : 929
+      }, {
+        "id" : "5",
+        "x" : 2408,
+        "y" : 329
+      }, {
+        "id" : "6",
+        "x" : 2408,
+        "y" : 929
+      }, {
+        "id" : "7",
+        "x" : 908,
+        "y" : 1183
+      }, {
+        "id" : "8",
+        "x" : 2408,
+        "y" : 1529
+      }, {
+        "id" : "9",
+        "x" : 1658,
+        "y" : 1529
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://raw.githubusercontent.com/cassiobotaro/modeloC4/main/cms/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "SystemContext"
+    }
+  }
+}
