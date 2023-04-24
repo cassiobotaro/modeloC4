@@ -1,0 +1,244 @@
+{
+  "id" : 1,
+  "name" : "Mão na Massa CMS",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-04-24T23:23:21Z",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJNw6NvIG5hIE1hc3NhIENNUyIgewogICAgbW9kZWwgewogICAgICAgIGNsaWVudCA9IHBlcnNvbiAiVXN1w6FyaW8iICJDb25zdW1pZG9yIGRlIGNvbnRlw7pkby4iCiAgICAgICAgYWRtaW4gPSBwZXJzb24gIkFkbWluIiAiQWRtaW5pc3RyYWRvciBkZSBjb250ZcO6ZG8uIgoKICAgICAgICBjbXMgPSBzb2Z0d2FyZVN5c3RlbSAiTcOjbyBuYSBNYXNzYSBDTVMiIHsKICAgICAgICAgICAgZnJvbnR3ZWIgPSBjb250YWluZXIgIlBsYXRhZm9ybWEgV0VCIC0gU1BBIiAiUHJvdmVyIGNvbnRlw7pkbyBwYXJhIHVzdWFyaW9zIGUgYWNlc3NvIGFkbWluaXN0cmF0aXZvIGFvIENNUy4iICJWdWUuanMiCiAgICAgICAgICAgIGZyb250bW9iaWxlID0gY29udGFpbmVyICJNb2JpbGUiICJQcm92ZXIgY29udGXDumRvIHBhcmEgdXN1YXJpb3MgZSBhY2Vzc28gYWRtaW5pc3RyYXRpdm8gYW8gQ01TLiIgIkZsdXR0ZXIiCiAgICAgICAgICAgIGJhY2thcGkgPSBjb250YWluZXIgIkJhY2tlbmQiICJHZXJlbmNpYXIgZSBwcm92ZXIgY29udGXDumRvcyBkYSBwbGF0YWZvcm1hIGUgY29udHJvbGUgZGUgYWNlc3NvLiIgIk5lc3RKUywgVHlwZXNjcmlwdCIKICAgICAgICAgICAgYmQgPSBjb250YWluZXIgIkJhbmNvIGRlIGRhZG9zIFNRTCIgIkFybWF6ZW5hciBpbmZvcm1hw6fDtWVzIGRvcyB1c3XDoXJpb3MgZSBkZSBjb250ZcO6ZG8uIiAiUG9zdGdyZVNRTCIKICAgICAgICB9CiAgICAgICAgY2xpZW50IC0+IGZyb250d2ViICJBY2Vzc2EgbyBjb250ZcO6ZG8gZGEiICJIVFRQUyIKICAgICAgICBjbGllbnQgLT4gZnJvbnRtb2JpbGUgIkFjZXNzYSBvIGNvbnRlw7pkbyBkbyIgIkhUVFBTIgogICAgICAgIGFkbWluIC0+IGZyb250d2ViICJBY2Vzc2EgcGFpbmVsIGFkbWluaXN0cmF0aXZvIGRhIiAiSFRUUFMiCiAgICAgICAgYWRtaW4gLT4gZnJvbnRtb2JpbGUgIkFjZXNzYSBwYWluZWwgYWRtaW5pc3RyYXRpdm8gZG8iICJIVFRQUyIKICAgICAgICBmcm9udHdlYiAtPiBiYWNrYXBpICJSZWFsaXphIGNoYW1hZGFzIGRlIGFwaSBubyIgIkhUVFBTLCBKU09OIgogICAgICAgIGZyb250bW9iaWxlIC0+IGJhY2thcGkgIlJlYWxpemEgY2hhbWFkYXMgZGUgYXBpIG5vIiAiSFRUUFMsIEpTT04iCiAgICAgICAgYmFja2FwaSAtPiBiZCAiTMOqIGUgZXNjcmV2ZSBubyIKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBjbXMgIkNvbnRleHREaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgY21zICJDb250YWluZXJEaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICAgICAgfQogICAgICAgIHRoZW1lICJkZWZhdWx0IgoKICAgIH0KfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "client"
+      },
+      "name" : "Usuário",
+      "description" : "Consumidor de conteúdo.",
+      "relationships" : [ {
+        "id" : "8",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Acessa o conteúdo da",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "9",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Acessa o conteúdo da",
+        "technology" : "HTTPS",
+        "linkedRelationshipId" : "8"
+      }, {
+        "id" : "10",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Acessa o conteúdo do",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "admin"
+      },
+      "name" : "Admin",
+      "description" : "Administrador de conteúdo.",
+      "relationships" : [ {
+        "id" : "11",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Acessa painel administrativo da",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "12",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Acessa painel administrativo da",
+        "technology" : "HTTPS",
+        "linkedRelationshipId" : "11"
+      }, {
+        "id" : "13",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "5",
+        "description" : "Acessa painel administrativo do",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "cms"
+      },
+      "name" : "Mão na Massa CMS",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "frontmobile"
+        },
+        "name" : "Mobile",
+        "description" : "Prover conteúdo para usuarios e acesso administrativo ao CMS.",
+        "relationships" : [ {
+          "id" : "15",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "6",
+          "description" : "Realiza chamadas de api no",
+          "technology" : "HTTPS, JSON"
+        } ],
+        "technology" : "Flutter",
+        "documentation" : { }
+      }, {
+        "id" : "7",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bd"
+        },
+        "name" : "Banco de dados SQL",
+        "description" : "Armazenar informações dos usuários e de conteúdo.",
+        "technology" : "PostgreSQL",
+        "documentation" : { }
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "frontweb"
+        },
+        "name" : "Plataforma WEB - SPA",
+        "description" : "Prover conteúdo para usuarios e acesso administrativo ao CMS.",
+        "relationships" : [ {
+          "id" : "14",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "6",
+          "description" : "Realiza chamadas de api no",
+          "technology" : "HTTPS, JSON"
+        } ],
+        "technology" : "Vue.js",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "backapi"
+        },
+        "name" : "Backend",
+        "description" : "Gerenciar e prover conteúdos da plataforma e controle de acesso.",
+        "relationships" : [ {
+          "id" : "16",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "7",
+          "description" : "Lê e escreve no"
+        } ],
+        "technology" : "NestJS, Typescript",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "ContextDiagram",
+      "order" : 1,
+      "softwareSystemId" : "3",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "12"
+      }, {
+        "id" : "9"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "ContainerDiagram",
+      "order" : 2,
+      "softwareSystemId" : "3",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "15"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "10"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "6",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { }
+    }
+  }
+}
