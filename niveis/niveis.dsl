@@ -1,4 +1,4 @@
-workspace "Levels" {
+workspace "Níveis" {
     model {
         client = person "Cliente bancário pessoal" "Um cliente do banco, com contas pessoais." "Cliente"
         ib = softwaresystem "Sistema de Internet Banking" "Permite que o cliente visualize informações sobre suas contas bancárias e faça pagamentos." {
