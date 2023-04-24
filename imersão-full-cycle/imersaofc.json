@@ -1,0 +1,712 @@
+{
+  "id" : 1,
+  "name" : "Imersão Full Cycle",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-04-24T23:27:57Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJJbWVyc8OjbyBGdWxsIEN5Y2xlIiB7CiAgICBtb2RlbCB7CiAgICAgICAgY2xpZW50ID0gc29mdHdhcmVzeXN0ZW0gIkNsaWVudGUiICJTaXN0ZW1hIHF1ZSBzb2xpY2l0YSBvIHBhZ2FtZW50by4iICJFeHRlcm5hbCIKICAgICAgICB1c2VyID0gcGVyc29uICJBZG1pbmlzdHJhZG9yYSIgIkFjb21wYW5oYSBhcyB0cmFuc2HDp8O1ZXMgZGUgcGFnYW1lbnRvLiIgIkV4dGVybmFsIgogICAgICAgIHN1cGVyYWRtaW4gPSBwZXJzb24gIkFkbWluaXN0cmFkb3JhIGRhIEdhdGV3YXkiICJBY29tcGFuaGEgYXMgbcOpdHJpY2FzIGRlIHRyYW5zYcOnw7VlcyBkZSBwYWdhbWVudG8uIiAiQWRtaW4iCgogICAgICAgIGZ1bGxfY3ljbGVfZ2F0ZXdheSA9IHNvZnR3YXJlU3lzdGVtICJGdWxsIEN5Y2xlIEdhdGV3YXkiIHsKCiAgICAgICAgICAgIGJhY2tlbmQgPSBjb250YWluZXIgIkJhY2tlbmQiICJTaXN0ZW1hIHF1ZSByZWNlYmUgYSBzb2xpY2l0YcOnw6NvIGRlIHBhZ2FtZW50byIgIk5lc3QuanMiKSB7CiAgICAgICAgICAgICAgICBjbGllbnQgLT4gdGhpcyAiU29saWNpdGEgcGFnYW1lbnRvIGVtIiAiSFRUUC9KU09OIgogICAgICAgICAgICB9CgogICAgICAgICAgICBwcm9jZXNzb3IgPSBjb250YWluZXIgIlByb2Nlc3NhZG9yIGRlIHBhZ2FtZW50b3MiICJQcm9jZXNzYSBwYWdhbWVudG86IGF1dG9yaXphbmRvIG91IHJlamVpdGFuZG8iICJHbyIgewogICAgICAgICAgICAgICAgYmFja2VuZCAtPiB0aGlzICJFbnZpYSBkYWRvcyBkZSBwYWdhbWVudG8gcGFyYSIgIkF0cmF2w6lzIGRvIEthZmthIHBlbG8gdMOzcGljbyB0cmFuc2FjdGlvbnMiCiAgICAgICAgICAgICAgICB0aGlzIC0+IGJhY2tlbmQgIkVudmlhIHJlc3VsdGFkbyBkYSB0cmFuc2HDp8OjbyIgIkF0cmF2w6lzIGRvIEthZmthIHBlbG8gdMOzcGljbyB0cmFuc2FjdGlvbnNfcmVzdWx0IgogICAgICAgICAgICB9CgogICAgICAgICAgICBteXNxbF9iYWNrZW5kID0gY29udGFpbmVyICJSZXF1aXNpY29lc1RyYW5zYWNvZXMiICJBcm1hemVuYSBhcyByZXF1aXNpw6fDtWVzIGRlIHRyYW5zYcOnw7VlcyBkZSBwYWdhbWVudG8uIiAiTXlTUUwgc2NoZW1hIiAiQmFuY28gZGUgRGFkb3MiIHsKICAgICAgICAgICAgICAgIGJhY2tlbmQgLT4gdGhpcyAiUmVjZWJlIGRhZG9zIGRvIHBhZ2FtZW50byIgIk15U1FMIFByb3RvY29sIgogICAgICAgICAgICB9CiAgICAgICAgICAgIG15c3FsX3Byb2Nlc3NvciA9IGNvbnRhaW5lciAiVHJhbnNhY29lcyIgIkFybWF6ZW5hIGFzIHRyYW5zYcOnw7VlcyBkZSBwYWdhbWVudG8uIiAiTXlTUUwgc2NoZW1hIiAiQmFuY28gZGUgRGFkb3MiIHsKICAgICAgICAgICAgICAgIHByb2Nlc3NvciAtPiB0aGlzICJSZWNlYmUgZGFkb3MgZG8gcGFnYW1lbnRvIiAiTXlTUUwgUHJvdG9jb2wiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHByb21ldGhldXMgPSBjb250YWluZXIgIk3DqXRyaWNhcyBkZSBwYWdhbWVudG8iICJBcm1hemVuYSBtw6l0cmljYXMgZGUgcGFnYW1lbnRvIiAiUHJvbWV0aGV1cyIgewogICAgICAgICAgICAgICAgcHJvY2Vzc29yIC0+IHRoaXMgIkNvbnN1bWUgbcOpdHJpY2FzIGRlIHBhZ2FtZW50byBlbSIgIkhUVFAvVFhUIgogICAgICAgICAgICB9CgogICAgICAgICAgICBncmFmYW5hID0gY29udGFpbmVyICJEYXNoYm9hcmQgZGUgbcOpdHJpY2FzIiAiRXhpYmUgbcOpdHJpY2FzIGRlIHBhZ2FtZW50b3MiICJHcmFmYW5hIiB7CiAgICAgICAgICAgICAgICB0aGlzIC0+IHByb21ldGhldXMgIkNvbnN1bWUgbcOpdHJpY2FzIGRlIHBhZ2FtZW50byBlbSIgIlByb21RTCIKICAgICAgICAgICAgICAgIHN1cGVyYWRtaW4gLT4gdGhpcyAiQ29uc3VtZSBtw6l0cmljYXMgZGUgcGFnYW1lbnRvIGVtIiAiSFRUUFMiCiAgICAgICAgICAgIH0KCgogICAgICAgICAgICBmcm9udGVuZCA9IGNvbnRhaW5lciAiUGFpbmVsIGRlIENvbnRyb2xlIiAiTW9uaXRvcmEgYXMgdHJhbnNhw6fDtWVzIGRlIHBhZ2FtZW50byBlIHNldXMgc3RhdHVzIiAiTmV4dC5qcyIgIk5hdmVnYWRvciBXZWIiIHsKICAgICAgICAgICAgICAgIHVzZXIgLT4gdGhpcyAiU29saWNpdGEgZGFkb3MgZGFzIHRyYW5zYcOnw7VlcyBlbSIgIkhUVFBTIgogICAgICAgICAgICAgICAgdGhpcyAtPiBiYWNrZW5kICJSZWN1cGVyYSBpbmZvcm1hw6fDtWVzIGRlIHBhZ2FtZW50byIgIkhUVFBTL0pTT04iCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgZGVwbG95bWVudEVudmlyb25tZW50ICJMaXZlIiB7CiAgICAgICAgICAgIHJlZ2lvbiA9IGRlcGxveW1lbnROb2RlICJVUy1FYXN0LTEiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSZWdpb24iCgogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkF1dG9zY2FsaW5nIGdyb3VwIGZyb250ZW5kIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEF1dG8gU2NhbGluZyIKCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBFQzIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKICAgICAgICAgICAgICAgICAgICAgICAgZnJvbnRJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGZyb250ZW5kCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBdXRvc2NhbGluZyBncm91cCBiYWNrZW5kIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEF1dG8gU2NhbGluZyIKCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBFQzIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIEVDMiIKICAgICAgICAgICAgICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2UgYmFja2VuZAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIEVDMiAtIFByb2Nlc3NvciIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBFQzIiCiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2UgcHJvY2Vzc29yCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIk1hbmFnZWQgR3JhZmFuYSIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBNYW5hZ2VkIEdyYWZhbmEiCiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVySW5zdGFuY2UgZ3JhZmFuYQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJNYW5hZ2VkIFByb21ldGhldXMiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gTWFuYWdlZCBTZXJ2aWNlIGZvciBQcm9tZXRoZXVzIgogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIHByb21ldGhldXMKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQW1hem9uIFJEUyBiYWNrZW5kIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJEUyIKCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIk15U1FMIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSRFMgTXlTUUwgaW5zdGFuY2UiCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIG15c3FsX2JhY2tlbmQKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFtYXpvbiBSRFMgcHJvY2Vzc29yIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFJEUyIKCiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIk15U1FMIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBSRFMgTXlTUUwgaW5zdGFuY2UiCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIG15c3FsX3Byb2Nlc3NvcgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCBmdWxsX2N5Y2xlX2dhdGV3YXkgIkNvbnRleHREaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgZnVsbF9jeWNsZV9nYXRld2F5ICJDb250YWluZXJEaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICAgICAgfQoKICAgICAgICBkZXBsb3ltZW50IGZ1bGxfY3ljbGVfZ2F0ZXdheSAiTGl2ZSIgIkxpdmVEZXBsb3ltZW50IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICAgICAgfQoKICAgICAgICB0aGVtZSAiZGVmYXVsdCIKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlNvZnR3YXJlIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZmZmZmZmCiAgICAgICAgICAgICAgICBzdHJva2UgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgIzExNjhiZAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZmZmZmZmCiAgICAgICAgICAgICAgICBzdHJva2UgIzQzOGRkNQogICAgICAgICAgICAgICAgY29sb3IgIzQzOGRkNQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkV4dGVybmFsIiB7CiAgICAgICAgICAgICAgICBzdHJva2UgIzk5OTk5OQogICAgICAgICAgICAgICAgY29sb3IgIzk5OTk5OQogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQWRtaW4iIHsKICAgICAgICAgICAgICAgIHN0cm9rZSAjZmZhNTA1CiAgICAgICAgICAgICAgICBjb2xvciAjZmZhNTA1CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJCYW5jbyBkZSBEYWRvcyIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJOYXZlZ2Fkb3IgV2ViIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgdGhlbWVzIGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMvYW1hem9uLXdlYi1zZXJ2aWNlcy0yMDIzLjAxLjMxL3RoZW1lLmpzb24KICAgIH0KfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "3",
+      "tags" : "Element,Person,Admin",
+      "properties" : {
+        "structurizr.dsl.identifier" : "superadmin"
+      },
+      "name" : "Administradora da Gateway",
+      "description" : "Acompanha as métricas de transações de pagamento.",
+      "relationships" : [ {
+        "id" : "20",
+        "sourceId" : "3",
+        "destinationId" : "4",
+        "description" : "Consume métricas de pagamento em",
+        "technology" : "HTTPS",
+        "linkedRelationshipId" : "19"
+      }, {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "17",
+        "description" : "Consume métricas de pagamento em",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "user"
+      },
+      "name" : "Administradora",
+      "description" : "Acompanha as transações de pagamento.",
+      "relationships" : [ {
+        "id" : "23",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Solicita dados das transações em",
+        "technology" : "HTTPS",
+        "linkedRelationshipId" : "22"
+      }, {
+        "id" : "22",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "21",
+        "description" : "Solicita dados das transações em",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "full_cycle_gateway"
+      },
+      "name" : "Full Cycle Gateway",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "13",
+        "tags" : "Element,Container,Banco de Dados",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mysql_processor"
+        },
+        "name" : "Transacoes",
+        "description" : "Armazena as transações de pagamento.",
+        "technology" : "MySQL schema",
+        "documentation" : { }
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "prometheus"
+        },
+        "name" : "Métricas de pagamento",
+        "description" : "Armazena métricas de pagamento",
+        "technology" : "Prometheus",
+        "documentation" : { }
+      }, {
+        "id" : "21",
+        "tags" : "Element,Container,Navegador Web",
+        "properties" : {
+          "structurizr.dsl.identifier" : "frontend"
+        },
+        "name" : "Painel de Controle",
+        "description" : "Monitora as transações de pagamento e seus status",
+        "relationships" : [ {
+          "id" : "24",
+          "tags" : "Relationship",
+          "sourceId" : "21",
+          "destinationId" : "5",
+          "description" : "Recupera informações de pagamento",
+          "technology" : "HTTPS/JSON"
+        } ],
+        "technology" : "Next.js",
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,)",
+        "properties" : {
+          "structurizr.dsl.identifier" : "backend"
+        },
+        "name" : "Backend",
+        "description" : "Sistema que recebe a solicitação de pagamento",
+        "relationships" : [ {
+          "id" : "12",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "11",
+          "description" : "Recebe dados do pagamento",
+          "technology" : "MySQL Protocol"
+        }, {
+          "id" : "9",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "8",
+          "description" : "Envia dados de pagamento para",
+          "technology" : "Através do Kafka pelo tópico transactions"
+        } ],
+        "technology" : "Nest.js",
+        "documentation" : { }
+      }, {
+        "id" : "17",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "grafana"
+        },
+        "name" : "Dashboard de métricas",
+        "description" : "Exibe métricas de pagamentos",
+        "relationships" : [ {
+          "id" : "18",
+          "tags" : "Relationship",
+          "sourceId" : "17",
+          "destinationId" : "15",
+          "description" : "Consume métricas de pagamento em",
+          "technology" : "PromQL"
+        } ],
+        "technology" : "Grafana",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container,Banco de Dados",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mysql_backend"
+        },
+        "name" : "RequisicoesTransacoes",
+        "description" : "Armazena as requisições de transações de pagamento.",
+        "technology" : "MySQL schema",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "processor"
+        },
+        "name" : "Processador de pagamentos",
+        "description" : "Processa pagamento: autorizando ou rejeitando",
+        "relationships" : [ {
+          "id" : "14",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "13",
+          "description" : "Recebe dados do pagamento",
+          "technology" : "MySQL Protocol"
+        }, {
+          "id" : "10",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "5",
+          "description" : "Envia resultado da transação",
+          "technology" : "Através do Kafka pelo tópico transactions_result"
+        }, {
+          "id" : "16",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "15",
+          "description" : "Consume métricas de pagamento em",
+          "technology" : "HTTP/TXT"
+        } ],
+        "technology" : "Go",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    }, {
+      "id" : "1",
+      "tags" : "Element,Software System,External",
+      "properties" : {
+        "structurizr.dsl.identifier" : "client"
+      },
+      "name" : "Cliente",
+      "description" : "Sistema que solicita o pagamento.",
+      "relationships" : [ {
+        "id" : "6",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Solicita pagamento em",
+        "technology" : "HTTP/JSON"
+      }, {
+        "id" : "7",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Solicita pagamento em",
+        "technology" : "HTTP/JSON",
+        "linkedRelationshipId" : "6"
+      } ],
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "25",
+      "tags" : "Element,Deployment Node,Amazon Web Services - Region",
+      "properties" : {
+        "structurizr.dsl.identifier" : "region"
+      },
+      "name" : "US-East-1",
+      "environment" : "Live",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "39",
+        "tags" : "Element,Deployment Node,Amazon Web Services - Managed Service for Prometheus",
+        "name" : "Managed Prometheus",
+        "environment" : "Live",
+        "instances" : "1",
+        "containerInstances" : [ {
+          "id" : "40",
+          "tags" : "Container Instance",
+          "environment" : "Live",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "15"
+        } ]
+      }, {
+        "id" : "26",
+        "tags" : "Element,Deployment Node,Amazon Web Services - Auto Scaling",
+        "name" : "Autoscaling group frontend",
+        "environment" : "Live",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "27",
+          "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
+          "name" : "Amazon EC2",
+          "environment" : "Live",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "28",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "frontinstance"
+            },
+            "relationships" : [ {
+              "id" : "32",
+              "sourceId" : "28",
+              "destinationId" : "31",
+              "description" : "Recupera informações de pagamento",
+              "technology" : "HTTPS/JSON",
+              "linkedRelationshipId" : "24"
+            } ],
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "21"
+          } ]
+        } ]
+      }, {
+        "id" : "43",
+        "tags" : "Element,Deployment Node,Amazon Web Services - RDS",
+        "name" : "Amazon RDS backend",
+        "environment" : "Live",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "44",
+          "tags" : "Element,Deployment Node,Amazon Web Services - RDS MySQL instance",
+          "name" : "MySQL",
+          "environment" : "Live",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "45",
+            "tags" : "Container Instance",
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "11"
+          } ]
+        } ]
+      }, {
+        "id" : "37",
+        "tags" : "Element,Deployment Node,Amazon Web Services - Managed Grafana",
+        "name" : "Managed Grafana",
+        "environment" : "Live",
+        "instances" : "1",
+        "containerInstances" : [ {
+          "id" : "38",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "41",
+            "sourceId" : "38",
+            "destinationId" : "40",
+            "description" : "Consume métricas de pagamento em",
+            "technology" : "PromQL",
+            "linkedRelationshipId" : "18"
+          } ],
+          "environment" : "Live",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "17"
+        } ]
+      }, {
+        "id" : "29",
+        "tags" : "Element,Deployment Node,Amazon Web Services - Auto Scaling",
+        "name" : "Autoscaling group backend",
+        "environment" : "Live",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "30",
+          "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
+          "name" : "Amazon EC2",
+          "environment" : "Live",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "31",
+            "tags" : "Container Instance",
+            "relationships" : [ {
+              "id" : "36",
+              "sourceId" : "31",
+              "destinationId" : "34",
+              "description" : "Envia dados de pagamento para",
+              "technology" : "Através do Kafka pelo tópico transactions",
+              "linkedRelationshipId" : "9"
+            }, {
+              "id" : "46",
+              "sourceId" : "31",
+              "destinationId" : "45",
+              "description" : "Recebe dados do pagamento",
+              "technology" : "MySQL Protocol",
+              "linkedRelationshipId" : "12"
+            } ],
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "5"
+          } ]
+        } ]
+      }, {
+        "id" : "33",
+        "tags" : "Element,Deployment Node,Amazon Web Services - EC2",
+        "name" : "Amazon EC2 - Processor",
+        "environment" : "Live",
+        "instances" : "1",
+        "containerInstances" : [ {
+          "id" : "34",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "35",
+            "sourceId" : "34",
+            "destinationId" : "31",
+            "description" : "Envia resultado da transação",
+            "technology" : "Através do Kafka pelo tópico transactions_result",
+            "linkedRelationshipId" : "10"
+          }, {
+            "id" : "42",
+            "sourceId" : "34",
+            "destinationId" : "40",
+            "description" : "Consume métricas de pagamento em",
+            "technology" : "HTTP/TXT",
+            "linkedRelationshipId" : "16"
+          }, {
+            "id" : "50",
+            "sourceId" : "34",
+            "destinationId" : "49",
+            "description" : "Recebe dados do pagamento",
+            "technology" : "MySQL Protocol",
+            "linkedRelationshipId" : "14"
+          } ],
+          "environment" : "Live",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "8"
+        } ]
+      }, {
+        "id" : "47",
+        "tags" : "Element,Deployment Node,Amazon Web Services - RDS",
+        "name" : "Amazon RDS processor",
+        "environment" : "Live",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "48",
+          "tags" : "Element,Deployment Node,Amazon Web Services - RDS MySQL instance",
+          "name" : "MySQL",
+          "environment" : "Live",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "49",
+            "tags" : "Container Instance",
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "13"
+          } ]
+        } ]
+      } ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "ContextDiagram",
+      "order" : 1,
+      "softwareSystemId" : "4",
+      "dimensions" : {
+        "width" : 2250,
+        "height" : 1400
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 200,
+        "y" : 250
+      }, {
+        "id" : "2",
+        "x" : 950,
+        "y" : 200
+      }, {
+        "id" : "3",
+        "x" : 1650,
+        "y" : 200
+      }, {
+        "id" : "4",
+        "x" : 925,
+        "y" : 900
+      } ],
+      "relationships" : [ {
+        "id" : "23"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "20"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "ContainerDiagram",
+      "order" : 2,
+      "softwareSystemId" : "4",
+      "dimensions" : {
+        "width" : 3820,
+        "height" : 3017
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 2400,
+        "y" : 708
+      }, {
+        "id" : "1",
+        "x" : 900,
+        "y" : 199
+      }, {
+        "id" : "2",
+        "x" : 200,
+        "y" : 1003
+      }, {
+        "id" : "13",
+        "x" : 3150,
+        "y" : 1308
+      }, {
+        "id" : "3",
+        "x" : 1675,
+        "y" : 2416
+      }, {
+        "id" : "15",
+        "x" : 3150,
+        "y" : 1908
+      }, {
+        "id" : "5",
+        "x" : 1650,
+        "y" : 1053
+      }, {
+        "id" : "17",
+        "x" : 2400,
+        "y" : 1908
+      }, {
+        "id" : "8",
+        "x" : 2400,
+        "y" : 1308
+      }, {
+        "id" : "21",
+        "x" : 900,
+        "y" : 1053
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "14"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "6",
+        "vertices" : [ {
+          "x" : 1350,
+          "y" : 528
+        } ]
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "10",
+        "vertices" : [ {
+          "x" : 2298,
+          "y" : 1188
+        } ]
+      }, {
+        "id" : "9",
+        "vertices" : [ {
+          "x" : 2201,
+          "y" : 1472
+        } ]
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "key" : "LiveDeployment",
+      "order" : 3,
+      "softwareSystemId" : "4",
+      "dimensions" : {
+        "width" : 3670,
+        "height" : 2271
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "environment" : "Live",
+      "elements" : [ {
+        "id" : "33",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "44",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "34",
+        "x" : 2060,
+        "y" : 977
+      }, {
+        "id" : "45",
+        "x" : 2060,
+        "y" : 260
+      }, {
+        "id" : "47",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "25",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "26",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "48",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "37",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "27",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "49",
+        "x" : 2960,
+        "y" : 873
+      }, {
+        "id" : "38",
+        "x" : 2060,
+        "y" : 1589
+      }, {
+        "id" : "39",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "28",
+        "x" : 260,
+        "y" : 618
+      }, {
+        "id" : "29",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "40",
+        "x" : 2960,
+        "y" : 1589
+      }, {
+        "id" : "30",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "31",
+        "x" : 1160,
+        "y" : 618
+      }, {
+        "id" : "43",
+        "x" : 175,
+        "y" : 175
+      } ],
+      "relationships" : [ {
+        "id" : "50"
+      }, {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 1779,
+          "y" : 1086
+        } ]
+      }, {
+        "id" : "35",
+        "vertices" : [ {
+          "x" : 1890,
+          "y" : 808
+        } ]
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "42",
+        "vertices" : [ {
+          "x" : 2718,
+          "y" : 1410
+        } ]
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "46"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "background" : "#ffffff"
+        }, {
+          "tag" : "Software System",
+          "background" : "#ffffff",
+          "stroke" : "#1168bd",
+          "color" : "#1168bd"
+        }, {
+          "tag" : "Container",
+          "background" : "#ffffff",
+          "stroke" : "#438dd5",
+          "color" : "#438dd5"
+        }, {
+          "tag" : "External",
+          "background" : "#ffffff",
+          "stroke" : "#999999",
+          "color" : "#999999"
+        }, {
+          "tag" : "Admin",
+          "background" : "#ffffff",
+          "stroke" : "#ffa505",
+          "color" : "#ffa505"
+        }, {
+          "tag" : "Banco de Dados",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Navegador Web",
+          "shape" : "WebBrowser"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2023.01.31/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "LiveDeployment"
+    }
+  }
+}
