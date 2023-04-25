@@ -61,17 +61,17 @@ workspace "Níveis" {
 
         systemcontext ib "SystemContext" {
             include *
-            autoLayout
+            autoLayout lr
         }
 
         container ib "Containers"{
             include *
-            autoLayout
+            autoLayout lr
         }
 
         component api "Components" {
             include *
-            autoLayout
+            autoLayout lr
         }
 
         theme default
