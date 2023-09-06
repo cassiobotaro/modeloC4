@@ -2,8 +2,7 @@
   "id" : 1,
   "name" : "Icones",
   "description" : "Description",
-  "lastModifiedDate" : "2023-09-06T21:59:23Z",
-  "lastModifiedAgent" : "structurizr-javascript",
+  "lastModifiedDate" : "2023-09-06T22:00:16Z",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlICJJY29uZXMiIHsKICAgIG1vZGVsIHsKICAgICAgICBlbGVtZW50ICJUw610dWxvIDEiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiQW5kcm9pZCIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDIiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiRHluYXRyYWNlIgogICAgICAgIGVsZW1lbnQgIlTDrXR1bG8gMyIgInRlY25vbG9naWEiICJEZXNjcmnDp8OjbyBkZSB1bSBlbGVtZW50by4iICJFbGFzdGljIExvZ3N0YXNoIgogICAgICAgIGVsZW1lbnQgIlTDrXR1bG8gNCIgInRlY25vbG9naWEiICJEZXNjcmnDp8OjbyBkZSB1bSBlbGVtZW50by4iICJGaWxlYmVhdCIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDUiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiS2Fma2EiCiAgICAgICAgZWxlbWVudCAiVMOtdHVsbyA2IiAidGVjbm9sb2dpYSIgIkRlc2NyacOnw6NvIGRlIHVtIGVsZW1lbnRvLiIgIk5ldyBSZWxpYyIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDciICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFNpbXBsZSBTdG9yYWdlIFNlcnZpY2UgUzMgU3RhbmRhcmQiCiAgICAgICAgZWxlbWVudCAiVMOtdHVsbyA4IiAidGVjbm9sb2dpYSIgIkRlc2NyacOnw6NvIGRlIHVtIGVsZW1lbnRvLiIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBPcGVuU2VhcmNoIFNlcnZpY2UiCiAgICB9CgogICAgdmlld3MgewoKICAgICAgICBjdXN0b20gIkljb25lcyIgIkV4ZW1wbG9zIGRlIMONY29uZXMiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQKICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgICAgICB0aGVtZXMgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nhc3Npb2JvdGFyby9tb2RlbG9DNC9tYWluL2ljb25lcy90aGVtZS5qc29uCiAgICAgICAgdGhlbWVzIGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMvYW1hem9uLXdlYi1zZXJ2aWNlcy0yMDIzLjAxLjMxL3RoZW1lLmpzb24KICAgIH0KfQo="
   },
@@ -13,25 +12,34 @@
       "id" : "1",
       "tags" : "Element,Android",
       "properties" : {
-        "structurizr.dsl.identifier" : "99c1992f-c3d2-4127-8fa1-9a8c2d76b43f"
+        "structurizr.dsl.identifier" : "e15c3d01-4330-4a96-9d5e-536db786f30e"
       },
       "name" : "Título 1",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
-      "id" : "7",
-      "tags" : "Element,Amazon Web Services - Simple Storage Service S3 Standard",
+      "id" : "2",
+      "tags" : "Element,Dynatrace",
       "properties" : {
-        "structurizr.dsl.identifier" : "0dfcf458-01cd-4d43-8639-1a7cd54dfe1a"
+        "structurizr.dsl.identifier" : "b4ff636c-7ef5-4ed3-803d-01cb664f653a"
       },
-      "name" : "Título 7",
+      "name" : "Título 2",
+      "description" : "Descrição de um elemento.",
+      "metadata" : "tecnologia"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Elastic Logstash",
+      "properties" : {
+        "structurizr.dsl.identifier" : "72916b77-8934-458e-b075-23c51e4feefb"
+      },
+      "name" : "Título 3",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
       "id" : "4",
       "tags" : "Element,Filebeat",
       "properties" : {
-        "structurizr.dsl.identifier" : "f5bc7dbc-778f-4b12-8109-aaa0cd640a6e"
+        "structurizr.dsl.identifier" : "5885fc91-1dbc-42b7-97a3-78d2ce4e6e44"
       },
       "name" : "Título 4",
       "description" : "Descrição de um elemento.",
@@ -40,45 +48,36 @@
       "id" : "5",
       "tags" : "Element,Kafka",
       "properties" : {
-        "structurizr.dsl.identifier" : "08198250-fc87-4712-8273-77f9b2287771"
+        "structurizr.dsl.identifier" : "4bfd4edb-5a9c-439b-a5a5-8fa1ca821093"
       },
       "name" : "Título 5",
-      "description" : "Descrição de um elemento.",
-      "metadata" : "tecnologia"
-    }, {
-      "id" : "8",
-      "tags" : "Element,Amazon Web Services - OpenSearch Service",
-      "properties" : {
-        "structurizr.dsl.identifier" : "465bc2b1-d85f-4294-83ec-83f2eaa58821"
-      },
-      "name" : "Título 8",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
       "id" : "6",
       "tags" : "Element,New Relic",
       "properties" : {
-        "structurizr.dsl.identifier" : "dd06f13e-cb13-4dde-85fc-cc9784bb3129"
+        "structurizr.dsl.identifier" : "7bb915ce-83ec-40e3-a20d-a0fba08d33bc"
       },
       "name" : "Título 6",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
-      "id" : "3",
-      "tags" : "Element,Elastic Logstash",
+      "id" : "7",
+      "tags" : "Element,Amazon Web Services - Simple Storage Service S3 Standard",
       "properties" : {
-        "structurizr.dsl.identifier" : "a31e9537-9fba-473c-98f2-4b38d0565a53"
+        "structurizr.dsl.identifier" : "c6ffc912-d62e-441b-baa0-be3126ebe759"
       },
-      "name" : "Título 3",
+      "name" : "Título 7",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
-      "id" : "2",
-      "tags" : "Element,Dynatrace",
+      "id" : "8",
+      "tags" : "Element,Amazon Web Services - OpenSearch Service",
       "properties" : {
-        "structurizr.dsl.identifier" : "8daa1121-8da0-40bf-97b1-d76f5d68cfea"
+        "structurizr.dsl.identifier" : "afd98226-45d2-441f-aaec-7a112fc5919b"
       },
-      "name" : "Título 2",
+      "name" : "Título 8",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     } ]
@@ -89,10 +88,6 @@
       "key" : "Icones",
       "order" : 1,
       "title" : "Exemplos de Ícones",
-      "dimensions" : {
-        "width" : 6100,
-        "height" : 700
-      },
       "automaticLayout" : {
         "implementation" : "Graphviz",
         "rankDirection" : "TopBottom",
@@ -103,36 +98,36 @@
       },
       "elements" : [ {
         "id" : "1",
-        "x" : 199,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "2",
-        "x" : 949,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "3",
-        "x" : 1699,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "4",
-        "x" : 2449,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "5",
-        "x" : 3199,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "6",
-        "x" : 3949,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "7",
-        "x" : 4699,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "8",
-        "x" : 5449,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       } ]
     } ],
     "configuration" : {
@@ -140,7 +135,6 @@
       "styles" : { },
       "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://raw.githubusercontent.com/cassiobotaro/modeloC4/main/icones/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2023.01.31/theme.json" ],
       "terminology" : { },
-      "metadataSymbols" : "SquareBrackets",
       "lastSavedView" : "Icones"
     }
   }
