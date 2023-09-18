@@ -10,6 +10,7 @@ workspace "Icones" {
         element "Título 08" "tecnologia" "Descrição de um elemento." "Jaeger"
         element "Título 09" "tecnologia" "Descrição de um elemento." "Open Telemetry"
         element "Título 10" "tecnologia" "Descrição de um elemento." "OpenSearch"
+        element "Título 11" "tecnologia" "Descrição de um elemento." "AWS S3"
     }
 
     views {
