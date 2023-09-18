@@ -1,34 +1,38 @@
 {
-    "name": "Icons",
-    "description": "More iconography to complement diagrams.",
-    "elements": [
-        {
-            "tag": "Dynatrace",
-            "icon": "dynatrace.png"
-        },
-        {
-            "tag": "Elastic Logstash",
-            "icon": "elastic-logstash.png"
-        },
-        {
-            "tag": "Filebeat",
-            "icon": "filebeat.png"
-        },
-        {
-            "tag": "Kafka",
-            "icon": "kafka.png"
-        },
-        {
-            "tag": "Open Telemetry",
-            "icon": "otel.png"
-        },
-        {
-            "tag": "Jaeger",
-            "icon": "jaeger.png"
-        },
-        {
-            "tag": "New Relic",
-            "icon": "new-relic.png"
-        }
-    ]
+  "name": "Icons",
+  "description": "More iconography to complement diagrams.",
+  "elements": [
+    {
+      "tag": "Dynatrace",
+      "icon": "dynatrace.png"
+    },
+    {
+      "tag": "Elastic Logstash",
+      "icon": "elastic-logstash.png"
+    },
+    {
+      "tag": "Filebeat",
+      "icon": "filebeat.png"
+    },
+    {
+      "tag": "Kafka",
+      "icon": "kafka.png"
+    },
+    {
+      "tag": "Open Telemetry",
+      "icon": "otel.png"
+    },
+    {
+      "tag": "Jaeger",
+      "icon": "jaeger.png"
+    },
+    {
+      "tag": "OpenSearch",
+      "icon": "opensearch.png"
+    },
+    {
+      "tag": "New Relic",
+      "icon": "new-relic.png"
+    }
+  ]
 }
