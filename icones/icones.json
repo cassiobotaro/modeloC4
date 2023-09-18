@@ -2,82 +2,92 @@
   "id" : 1,
   "name" : "Icones",
   "description" : "Description",
-  "lastModifiedDate" : "2023-09-06T22:00:16Z",
+  "lastModifiedDate" : "2023-09-18T17:22:57Z",
+  "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlICJJY29uZXMiIHsKICAgIG1vZGVsIHsKICAgICAgICBlbGVtZW50ICJUw610dWxvIDEiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiQW5kcm9pZCIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDIiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiRHluYXRyYWNlIgogICAgICAgIGVsZW1lbnQgIlTDrXR1bG8gMyIgInRlY25vbG9naWEiICJEZXNjcmnDp8OjbyBkZSB1bSBlbGVtZW50by4iICJFbGFzdGljIExvZ3N0YXNoIgogICAgICAgIGVsZW1lbnQgIlTDrXR1bG8gNCIgInRlY25vbG9naWEiICJEZXNjcmnDp8OjbyBkZSB1bSBlbGVtZW50by4iICJGaWxlYmVhdCIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDUiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiS2Fma2EiCiAgICAgICAgZWxlbWVudCAiVMOtdHVsbyA2IiAidGVjbm9sb2dpYSIgIkRlc2NyacOnw6NvIGRlIHVtIGVsZW1lbnRvLiIgIk5ldyBSZWxpYyIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDciICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFNpbXBsZSBTdG9yYWdlIFNlcnZpY2UgUzMgU3RhbmRhcmQiCiAgICAgICAgZWxlbWVudCAiVMOtdHVsbyA4IiAidGVjbm9sb2dpYSIgIkRlc2NyacOnw6NvIGRlIHVtIGVsZW1lbnRvLiIgIkFtYXpvbiBXZWIgU2VydmljZXMgLSBPcGVuU2VhcmNoIFNlcnZpY2UiCiAgICB9CgogICAgdmlld3MgewoKICAgICAgICBjdXN0b20gIkljb25lcyIgIkV4ZW1wbG9zIGRlIMONY29uZXMiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQKICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgICAgICB0aGVtZXMgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Nhc3Npb2JvdGFyby9tb2RlbG9DNC9tYWluL2ljb25lcy90aGVtZS5qc29uCiAgICAgICAgdGhlbWVzIGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMvYW1hem9uLXdlYi1zZXJ2aWNlcy0yMDIzLjAxLjMxL3RoZW1lLmpzb24KICAgIH0KfQo="
+    "structurizr.dsl" : "d29ya3NwYWNlICJJY29uZXMiIHsKICAgIG1vZGVsIHsKICAgICAgICBlbGVtZW50ICJUw610dWxvIDAxIiAidGVjbm9sb2dpYSIgIkRlc2NyacOnw6NvIGRlIHVtIGVsZW1lbnRvLiIgIkR5bmF0cmFjZSIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDAyIiAidGVjbm9sb2dpYSIgIkRlc2NyacOnw6NvIGRlIHVtIGVsZW1lbnRvLiIgIkVsYXN0aWMgTG9nc3Rhc2giCiAgICAgICAgZWxlbWVudCAiVMOtdHVsbyAwMyIgInRlY25vbG9naWEiICJEZXNjcmnDp8OjbyBkZSB1bSBlbGVtZW50by4iICJGaWxlYmVhdCIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDA0IiAidGVjbm9sb2dpYSIgIkRlc2NyacOnw6NvIGRlIHVtIGVsZW1lbnRvLiIgIkthZmthIgogICAgICAgIGVsZW1lbnQgIlTDrXR1bG8gMDUiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiTmV3IFJlbGljIgogICAgICAgIGVsZW1lbnQgIlTDrXR1bG8gMDYiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiQW1hem9uIFdlYiBTZXJ2aWNlcyAtIFNpbXBsZSBTdG9yYWdlIFNlcnZpY2UgUzMgU3RhbmRhcmQiCiAgICAgICAgZWxlbWVudCAiVMOtdHVsbyAwNyIgInRlY25vbG9naWEiICJEZXNjcmnDp8OjbyBkZSB1bSBlbGVtZW50by4iICJBbWF6b24gV2ViIFNlcnZpY2VzIC0gT3BlblNlYXJjaCBTZXJ2aWNlIgogICAgICAgIGVsZW1lbnQgIlTDrXR1bG8gMDgiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiSmFlZ2VyIgogICAgICAgIGVsZW1lbnQgIlTDrXR1bG8gMDkiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiT3BlbiBUZWxlbWV0cnkiCiAgICB9CgogICAgdmlld3MgewoKICAgICAgICBjdXN0b20gIkljb25lcyIgIkV4ZW1wbG9zIGRlIMONY29uZXMiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQKICAgICAgICB9CgogICAgICAgIHRoZW1lcyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY2Fzc2lvYm90YXJvL21vZGVsb0M0L21haW4vaWNvbmVzL3RoZW1lLmpzb24KICAgICAgICB0aGVtZXMgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9hbWF6b24td2ViLXNlcnZpY2VzLTIwMjMuMDEuMzEvaWNvbnMuanNvbgogICAgfQp9Cg=="
   },
   "configuration" : { },
   "model" : {
     "customElements" : [ {
-      "id" : "1",
-      "tags" : "Element,Android",
+      "id" : "2",
+      "tags" : "Element,Elastic Logstash",
       "properties" : {
-        "structurizr.dsl.identifier" : "e15c3d01-4330-4a96-9d5e-536db786f30e"
+        "structurizr.dsl.identifier" : "a78099fb-ed0a-4872-8536-ad26534b0266"
       },
-      "name" : "Título 1",
+      "name" : "Título 02",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
-      "id" : "2",
+      "id" : "1",
       "tags" : "Element,Dynatrace",
       "properties" : {
-        "structurizr.dsl.identifier" : "b4ff636c-7ef5-4ed3-803d-01cb664f653a"
+        "structurizr.dsl.identifier" : "1110ed09-7050-415b-a33e-29a0499788b9"
       },
-      "name" : "Título 2",
+      "name" : "Título 01",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
       "id" : "3",
-      "tags" : "Element,Elastic Logstash",
-      "properties" : {
-        "structurizr.dsl.identifier" : "72916b77-8934-458e-b075-23c51e4feefb"
-      },
-      "name" : "Título 3",
-      "description" : "Descrição de um elemento.",
-      "metadata" : "tecnologia"
-    }, {
-      "id" : "4",
       "tags" : "Element,Filebeat",
       "properties" : {
-        "structurizr.dsl.identifier" : "5885fc91-1dbc-42b7-97a3-78d2ce4e6e44"
+        "structurizr.dsl.identifier" : "00cd7f39-e760-44f6-ac79-aa37a6c80ac7"
       },
-      "name" : "Título 4",
-      "description" : "Descrição de um elemento.",
-      "metadata" : "tecnologia"
-    }, {
-      "id" : "5",
-      "tags" : "Element,Kafka",
-      "properties" : {
-        "structurizr.dsl.identifier" : "4bfd4edb-5a9c-439b-a5a5-8fa1ca821093"
-      },
-      "name" : "Título 5",
+      "name" : "Título 03",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
       "id" : "6",
-      "tags" : "Element,New Relic",
+      "tags" : "Element,Amazon Web Services - Simple Storage Service S3 Standard",
       "properties" : {
-        "structurizr.dsl.identifier" : "7bb915ce-83ec-40e3-a20d-a0fba08d33bc"
+        "structurizr.dsl.identifier" : "7a953b90-eb5b-4094-90ca-0bddf5053ad2"
       },
-      "name" : "Título 6",
+      "name" : "Título 06",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
-      "id" : "7",
-      "tags" : "Element,Amazon Web Services - Simple Storage Service S3 Standard",
+      "id" : "5",
+      "tags" : "Element,New Relic",
       "properties" : {
-        "structurizr.dsl.identifier" : "c6ffc912-d62e-441b-baa0-be3126ebe759"
+        "structurizr.dsl.identifier" : "a5e637b1-7ebc-48cf-bdc3-5ff864cce516"
       },
-      "name" : "Título 7",
+      "name" : "Título 05",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
       "id" : "8",
+      "tags" : "Element,Jaeger",
+      "properties" : {
+        "structurizr.dsl.identifier" : "3a0112d1-acde-4a58-b9d3-fe7293d3c348"
+      },
+      "name" : "Título 08",
+      "description" : "Descrição de um elemento.",
+      "metadata" : "tecnologia"
+    }, {
+      "id" : "9",
+      "tags" : "Element,Open Telemetry",
+      "properties" : {
+        "structurizr.dsl.identifier" : "91d37acf-7e5a-4791-ad82-6c027c5effdb"
+      },
+      "name" : "Título 09",
+      "description" : "Descrição de um elemento.",
+      "metadata" : "tecnologia"
+    }, {
+      "id" : "7",
       "tags" : "Element,Amazon Web Services - OpenSearch Service",
       "properties" : {
-        "structurizr.dsl.identifier" : "afd98226-45d2-441f-aaec-7a112fc5919b"
+        "structurizr.dsl.identifier" : "5206cd6c-ae6b-47bb-8048-3a4cbf4cd99d"
       },
-      "name" : "Título 8",
+      "name" : "Título 07",
+      "description" : "Descrição de um elemento.",
+      "metadata" : "tecnologia"
+    }, {
+      "id" : "4",
+      "tags" : "Element,Kafka",
+      "properties" : {
+        "structurizr.dsl.identifier" : "7b98ac34-59b6-4adc-ae8e-c67b92aa6851"
+      },
+      "name" : "Título 04",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     } ]
@@ -88,6 +98,10 @@
       "key" : "Icones",
       "order" : 1,
       "title" : "Exemplos de Ícones",
+      "dimensions" : {
+        "width" : 6850,
+        "height" : 700
+      },
       "automaticLayout" : {
         "implementation" : "Graphviz",
         "rankDirection" : "TopBottom",
@@ -98,43 +112,48 @@
       },
       "elements" : [ {
         "id" : "1",
-        "x" : 0,
-        "y" : 0
+        "x" : 199,
+        "y" : 199
       }, {
         "id" : "2",
-        "x" : 0,
-        "y" : 0
+        "x" : 949,
+        "y" : 199
       }, {
         "id" : "3",
-        "x" : 0,
-        "y" : 0
+        "x" : 1699,
+        "y" : 199
       }, {
         "id" : "4",
-        "x" : 0,
-        "y" : 0
+        "x" : 2449,
+        "y" : 199
       }, {
         "id" : "5",
-        "x" : 0,
-        "y" : 0
+        "x" : 3199,
+        "y" : 199
       }, {
         "id" : "6",
-        "x" : 0,
-        "y" : 0
+        "x" : 3949,
+        "y" : 199
       }, {
         "id" : "7",
-        "x" : 0,
-        "y" : 0
+        "x" : 4699,
+        "y" : 199
       }, {
         "id" : "8",
-        "x" : 0,
-        "y" : 0
+        "x" : 5449,
+        "y" : 199
+      }, {
+        "id" : "9",
+        "x" : 6199,
+        "y" : 199
       } ]
     } ],
     "configuration" : {
       "branding" : { },
       "styles" : { },
-      "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://raw.githubusercontent.com/cassiobotaro/modeloC4/main/icones/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2023.01.31/theme.json" ],
+      "themes" : [ "https://raw.githubusercontent.com/cassiobotaro/modeloC4/main/icones/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2023.01.31/icons.json" ],
       "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
       "lastSavedView" : "Icones"
     }
   }
