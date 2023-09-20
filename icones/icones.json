@@ -2,8 +2,7 @@
   "id" : 1,
   "name" : "Icones",
   "description" : "Description",
-  "lastModifiedDate" : "2023-09-20T14:53:11Z",
-  "lastModifiedAgent" : "structurizr-javascript",
+  "lastModifiedDate" : "2023-09-20T14:54:59Z",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlICJJY29uZXMiIHsKICAgIG1vZGVsIHsKICAgICAgICBlbGVtZW50ICJUw610dWxvIDIiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiQVdTIFMzIgogICAgICAgIGVsZW1lbnQgIlTDrXR1bG8gMyIgInRlY25vbG9naWEiICJEZXNjcmnDp8OjbyBkZSB1bSBlbGVtZW50by4iICJBV1MgUHJvbWV0aGV1cyIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDQiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiR3JhZmFuYSIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDUiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiQVdTIFJEUyIKICAgICAgICBlbGVtZW50ICJUw610dWxvIDYiICJ0ZWNub2xvZ2lhIiAiRGVzY3Jpw6fDo28gZGUgdW0gZWxlbWVudG8uIiAiVmljdG9yaWEgTWV0cmljcyIKICAgIH0KCiAgICB2aWV3cyB7CgogICAgICAgIGN1c3RvbSAiSWNvbmVzIiAiRXhlbXBsb3MgZGUgw41jb25lcyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dAogICAgICAgIH0KCiAgICAgICAgdGhlbWVzIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jYXNzaW9ib3Rhcm8vbW9kZWxvQzQvbWFpbi9pY29uZXMvdGhlbWUuanNvbgogICAgICAgIHRoZW1lcyBodHRwczovL3N0YXRpYy5zdHJ1Y3R1cml6ci5jb20vdGhlbWVzL2FtYXpvbi13ZWItc2VydmljZXMtMjAyMy4wMS4zMS9pY29ucy5qc29uCiAgICB9Cn0K"
   },
@@ -13,25 +12,16 @@
       "id" : "1",
       "tags" : "Element,AWS S3",
       "properties" : {
-        "structurizr.dsl.identifier" : "e9292667-4850-4708-bba8-f2ebc8b077ac"
+        "structurizr.dsl.identifier" : "c1466ab9-4b62-4c23-94b5-198daaf1c1cd"
       },
       "name" : "Título 2",
-      "description" : "Descrição de um elemento.",
-      "metadata" : "tecnologia"
-    }, {
-      "id" : "5",
-      "tags" : "Element,Victoria Metrics",
-      "properties" : {
-        "structurizr.dsl.identifier" : "9dd11b84-279d-4eae-a354-0017b1174b73"
-      },
-      "name" : "Título 6",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     }, {
       "id" : "2",
       "tags" : "Element,AWS Prometheus",
       "properties" : {
-        "structurizr.dsl.identifier" : "f7c420e7-bb60-4b33-921f-d78fbbae3c32"
+        "structurizr.dsl.identifier" : "4ae6fd57-c80e-4745-adae-6aa4b8cf2202"
       },
       "name" : "Título 3",
       "description" : "Descrição de um elemento.",
@@ -40,7 +30,7 @@
       "id" : "3",
       "tags" : "Element,Grafana",
       "properties" : {
-        "structurizr.dsl.identifier" : "8083a26e-d7a6-4ff7-ad10-a07ef12b025b"
+        "structurizr.dsl.identifier" : "295a381a-5dd3-452f-9a8e-95a78609d9d7"
       },
       "name" : "Título 4",
       "description" : "Descrição de um elemento.",
@@ -49,9 +39,18 @@
       "id" : "4",
       "tags" : "Element,AWS RDS",
       "properties" : {
-        "structurizr.dsl.identifier" : "3c3c37db-7d51-41d5-92fd-030b4583e4bb"
+        "structurizr.dsl.identifier" : "6dd50615-4bfe-4b46-9102-694758b052ea"
       },
       "name" : "Título 5",
+      "description" : "Descrição de um elemento.",
+      "metadata" : "tecnologia"
+    }, {
+      "id" : "5",
+      "tags" : "Element,Victoria Metrics",
+      "properties" : {
+        "structurizr.dsl.identifier" : "d7de58e9-1dfe-482a-9b53-85193c539abe"
+      },
+      "name" : "Título 6",
       "description" : "Descrição de um elemento.",
       "metadata" : "tecnologia"
     } ]
@@ -62,10 +61,6 @@
       "key" : "Icones",
       "order" : 1,
       "title" : "Exemplos de Ícones",
-      "dimensions" : {
-        "width" : 3850,
-        "height" : 700
-      },
       "automaticLayout" : {
         "implementation" : "Graphviz",
         "rankDirection" : "TopBottom",
@@ -76,24 +71,24 @@
       },
       "elements" : [ {
         "id" : "1",
-        "x" : 200,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "2",
-        "x" : 950,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "3",
-        "x" : 1700,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "4",
-        "x" : 2450,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "5",
-        "x" : 3200,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       } ]
     } ],
     "configuration" : {
@@ -101,7 +96,6 @@
       "styles" : { },
       "themes" : [ "https://raw.githubusercontent.com/cassiobotaro/modeloC4/main/icones/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2023.01.31/icons.json" ],
       "terminology" : { },
-      "metadataSymbols" : "SquareBrackets",
       "lastSavedView" : "Icones"
     }
   }
