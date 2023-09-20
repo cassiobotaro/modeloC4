@@ -39,6 +39,10 @@
             "icon": "new-relic.png"
         },
         {
+            "tag": "Grafana",
+            "icon": "grafana.png"
+        },
+        {
             "tag": "AWS Prometheus",
             "icon": "aws-prometheus.png"
         }

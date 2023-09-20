@@ -12,6 +12,7 @@ workspace "Icones" {
         element "Título 10" "tecnologia" "Descrição de um elemento." "OpenSearch"
         element "Título 11" "tecnologia" "Descrição de um elemento." "AWS S3"
         element "Título 12" "tecnologia" "Descrição de um elemento." "AWS Prometheus"
+        element "Título 13" "tecnologia" "Descrição de um elemento." "Grafana"
     }
 
     views {
