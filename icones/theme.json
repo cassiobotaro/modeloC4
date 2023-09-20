@@ -1,54 +1,58 @@
 {
-  "name": "Icons",
-  "description": "More iconography to complement diagrams.",
-  "elements": [
-    {
-      "tag": "Dynatrace",
-      "icon": "dynatrace.png"
-    },
-    {
-      "tag": "Elastic Logstash",
-      "icon": "elastic-logstash.png"
-    },
-    {
-      "tag": "Filebeat",
-      "icon": "filebeat.png"
-    },
-    {
-      "tag": "Kafka",
-      "icon": "kafka.png"
-    },
-    {
-      "tag": "Open Telemetry",
-      "icon": "otel.png"
-    },
-    {
-      "tag": "Jaeger",
-      "icon": "jaeger.png"
-    },
-    {
-      "tag": "OpenSearch",
-      "icon": "opensearch.png"
-    },
-    {
-      "tag": "AWS S3",
-      "icon": "aws-s3.png"
-    },
-    {
-      "tag": "New Relic",
-      "icon": "new-relic.png"
-    },
-    {
-      "tag": "Grafana",
-      "icon": "grafana.png"
-    },
-    {
-      "tag": "AWS Prometheus",
-      "icon": "aws-prometheus.png"
-    },
-    {
-      "tag": "AWS RDS",
-      "icon": "aws-rds.png"
-    }
-  ]
+    "name": "Icons",
+    "description": "More iconography to complement diagrams.",
+    "elements": [
+        {
+            "tag": "Dynatrace",
+            "icon": "dynatrace.png"
+        },
+        {
+            "tag": "Elastic Logstash",
+            "icon": "elastic-logstash.png"
+        },
+        {
+            "tag": "Filebeat",
+            "icon": "filebeat.png"
+        },
+        {
+            "tag": "Kafka",
+            "icon": "kafka.png"
+        },
+        {
+            "tag": "Open Telemetry",
+            "icon": "otel.png"
+        },
+        {
+            "tag": "Jaeger",
+            "icon": "jaeger.png"
+        },
+        {
+            "tag": "OpenSearch",
+            "icon": "opensearch.png"
+        },
+        {
+            "tag": "AWS S3",
+            "icon": "aws-s3.png"
+        },
+        {
+            "tag": "New Relic",
+            "icon": "new-relic.png"
+        },
+        {
+            "tag": "Grafana",
+            "icon": "grafana.png"
+        },
+        {
+            "tag": "AWS Prometheus",
+            "icon": "aws-prometheus.png"
+        },
+        {
+            "tag": "AWS RDS",
+            "icon": "aws-rds.png"
+        },
+        {
+            "tag": "Victoria Metrics",
+            "icon": "victoria-metrics.png"
+        }
+    ]
 }
