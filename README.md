@@ -6,7 +6,6 @@ Este repositório contém todos os diagramas contidos na apresentação do model
 
 [PlantUML](https://plantuml.com/) foi utilizado em conjunto com [C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML) para gerar os diagramas.
 
-
 ## Gerando os diagramas
 
 ### Structurizr lite
@@ -37,6 +36,28 @@ Ela será invocada da seguinte maneira:
 
 ```bash
 structurizr nome_do_arquivo_sem_extensão
+```
+
+Para exportar os arquivos em png ou svg, mantenha a instância do structurizr rodando e utilize a seguinte função descrita abaixo.
+
+```sh
+function export_c4(){
+    readonly format=${1:?"The format must be specified."}
+    [ ! -f export-diagram.js ] && wget https://github.com/cassiobotaro/modeloC4/raw/main/export-diagram.js
+    text=$(docker run -i --init --cap-add=SYS_ADMIN --net=host --name=exporter ghcr.io/puppeteer/puppeteer:latest node -e "$(cat export-diagrams.js)"  "" "http://localhost:8080" "$format")
+    files=($(echo "$text" | grep -o "\S*\.$format"))
+    for file in "${files[@]}"
+    do
+        docker cp exporter:/home/pptruser/"$file" .
+    done
+    docker rm exporter
+}
+```
+
+Ela será invocada da seguinte maneira:
+
+```bash
+export_c4 png
 ```
 
 ### PlantUML
