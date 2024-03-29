@@ -3,9 +3,6 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        repo: [relacionamentos, icones, cms, imersaofc, intencoes, maonamassa, niveis, ]
     permissions:
       contents: write
     container:
@@ -18,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Generate diagrams
         run: |
-          bash scripts/gerar-diagramas.sh ${{ matrix.repo }}
+          bash scripts/gerar-diagramas.sh
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
