@@ -10,11 +10,7 @@ jobs:
       image: structurizr/cli:latest
     steps:
       - uses: actions/checkout@v4
-      - name: install git
-        run: |
-          apt-get update
-          apt-get install -y git
       - name: Generate diagrams
         run: |
           bash scripts/gerar-diagramas.sh relacionamentos
-          git status
+          ls
