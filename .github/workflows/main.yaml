@@ -1,0 +1,25 @@
+name: main
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo: [relacionamentos, icones, cms, imersaofc, intencoes, maonamassa, niveis, ]
+    permissions:
+      contents: write
+    container:
+      image: structurizr/cli:latest
+    steps:
+      - name: Install git
+        run: apt-get update && apt-get install -y git
+      - name: Mark directory as safe for git
+        run: git config --global --add safe.directory /__w/modeloC4/modeloC4
+      - uses: actions/checkout@v4
+      - name: Generate diagrams
+        run: |
+          bash scripts/gerar-diagramas.sh ${{ matrix.repo }}
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Diagramas gerados automaticamente para o repositório ${{ matrix.repo }}"
