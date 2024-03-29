@@ -1,12 +1,11 @@
 name: main
-on: [push, pull_request]
-
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repo: [relacionamentos, icones]
+        repo: [relacionamentos, icones, cms, imersaofc, intencoes, maonamassa, niveis, ]
     permissions:
       contents: write
     container:
@@ -23,4 +22,4 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Diagramas gerados automaticamente"
+          commit_message: "Diagramas gerados automaticamente para o repositório ${{ matrix.repo }}"
