@@ -15,7 +15,7 @@ function _gerar_markdown() {
 
 nome=$1
 
-usr/local/structurizr-cli/structurizr.sh export \
+/usr/local/structurizr-cli/structurizr.sh export \
 	-format mermaid \
 	-workspace "$nome"/"$nome".dsl
 
