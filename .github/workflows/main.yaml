@@ -9,4 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate diagrams
-        run: bash scripts/gerar-diagramas.sh relacionamentos
+        run: |
+          bash scripts/gerar-diagramas.sh relacionamentos
+          && git status
