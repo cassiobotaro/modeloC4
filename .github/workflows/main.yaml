@@ -16,7 +16,7 @@ jobs:
       - name: install git
         run: |
           apt-get update
-          apt-get install git
+          apt-get install -y git
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Generate diagrams for relacionamentos"
