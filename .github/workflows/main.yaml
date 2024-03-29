@@ -4,6 +4,9 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo: [relacionamentos, icones]
     permissions:
       contents: write
     container:
@@ -16,5 +19,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Generate diagrams
         run: |
-          bash scripts/gerar-diagramas.sh relacionamentos
-          git status
+          bash scripts/gerar-diagramas.sh ${{ matrix.repo }}
+      - name: Status
+        run: git status
+      # - name: Commit changes
+      #   uses: stefanzweifel/git-auto-commit-action@v5
+      #   with:
+      #     commit_message: "Diagramas gerados automaticamente"
