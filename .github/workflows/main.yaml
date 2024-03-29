@@ -9,4 +9,4 @@ jobs:
       - name: Generate diagrams
         uses: gilbertotcc/structurizr-action@v1
         with:
-          args: 'export -format mermaid -workspace relacionamentos/relacionamentos.dsl'
+          args: 'version'
