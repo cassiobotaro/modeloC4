@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate diagrams
-        run: structurizr.sh version
+        run: /usr/local/structurizr-cli/structurizr.sh version
