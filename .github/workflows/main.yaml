@@ -10,14 +10,11 @@ jobs:
       image: structurizr/cli:latest
     steps:
       - uses: actions/checkout@v4
-      - name: Generate diagrams
-        run: |
-          bash scripts/gerar-diagramas.sh relacionamentos
       - name: install git
         run: |
           apt-get update
           apt-get install -y git
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Generate diagrams for relacionamentos"
-          branch: ${{ github.ref }}
+      - name: Generate diagrams
+        run: |
+          bash scripts/gerar-diagramas.sh relacionamentos
+          git status
