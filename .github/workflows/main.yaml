@@ -1,0 +1,12 @@
+name: main
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: structurizr/cli:latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate diagrams
+        run: structurizr-cli --help
