@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Install git
         run: apt-get update && apt-get install -y git
+      - name: Mark directory as safe for git
+        run: git config --global --add safe.directory /__w/modeloC4/modeloC4
       - uses: actions/checkout@v4
       - name: Generate diagrams
         run: |
