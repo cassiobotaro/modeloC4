@@ -64,7 +64,7 @@ export_c4 png
 
 O [VS Code](https://code.visualstudio.com/) possui um plugin para PlantUML que pode ser encontrado na marketplace: [PlantUML for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml).
 
-Caso queira rodar localmente será necessário instalar o [Graphviz](https://www.graphviz.org/). No sistema operacional ubuntu o comando é:
+Caso queira rodar localmente será necessário instalar o [Graphviz](https://www.graphviz.org/). No sistema operacional Ubuntu o comando é:
 
     sudo apt-get install graphviz openjdk-17-jre
 
