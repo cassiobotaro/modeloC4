@@ -13,4 +13,4 @@ jobs:
       - name: Generate diagrams
         run: |
           bash scripts/gerar-diagramas.sh relacionamentos
-          ls
+          ls relacionamentos
