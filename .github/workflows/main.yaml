@@ -9,7 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate diagrams
-        run: |
-          /usr/local/structurizr-cli/structurizr.sh export \
-          -format mermaid \
-          -workspace relacionamentos/relacionamentos.dsl
+        run: bash scripts/gerar-diagramas.sh
