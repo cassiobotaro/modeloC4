@@ -1,319 +1,1101 @@
 {
-  "id" : 1,
-  "name" : "CMS",
-  "description" : "Description",
-  "lastModifiedDate" : "2023-04-18T00:32:23Z",
-  "lastModifiedAgent" : "structurizr-javascript",
-  "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlICJDTVMiIHsKICAgIG1vZGVsIHsKICAgICAgICByZWFkZXIgPSBwZXJzb24gIkxlaXRvciIgIlBlc3NvYSBxdWUgY29uc29tZSBhcyBub3TDrWNpYXMgZG8gc2l0ZS4iCiAgICAgICAgd3JpdGVyID0gcGVyc29uICJFZGl0b3IiICJQZXNzb2EgcXVlIGVzY3JldmUgY29udGXDumRvIHBhcmEgbyBzaXRlLiIKCiAgICAgICAgY21zID0gc29mdHdhcmVzeXN0ZW0gIkNNUyIgIlNpc3RlbWEgZGUgZ2VyZW5jaWFtZW50byBkZSBjb250ZcO6ZG8uInsKICAgICAgICAgICAgcG9ydGFsID0gY29udGFpbmVyICJQb3J0YWwgZGUgTm90w61jaWFzIiAiU2l0ZSBxdWUgZm9ybmVjZSBhcyBub3TDrWNpYXMgZSBjb250ZcO6ZG9zLiBQb3NzdWkgw6FyZWEgYWNlc3PDrXZlbCBzb21lbnRlIHBhcmEgZWRpdG9yZXMuIiAiUHl0aG9uIGFuZCBEamFuZ28iICJkamFuZ28iCiAgICAgICAgICAgIGRiID0gY29udGFpbmVyICJCYW5jbyBkZSBEYWRvcyIgIkFybWF6ZW5hIG5vdMOtY2lhcyBlIGluZm9ybWHDp8O1ZXMgc29icmUgdXN1w6FyaW9zLiIgIlBvc3RncmVzcWwiICJkYiIKICAgICAgICAgICAgc3RvcmFnZSA9IGNvbnRhaW5lciAiQXJtYXplbmFtZW50byBkZSBpbWFnZW5zIiAiQXJtYXplbmEgaW1hZ2VucyBxdWUgc2Vyw6NvIHV0aWxpemFkYXMgbmFzIG5vdMOtY2lhcyBlIG5vIGNvbnRlw7pkbyBkbyBwb3J0YWwuIiAiQnVja2V0IFMzIiAic3RvcmFnZSwgYXdzIgogICAgICAgICAgICBtb2JpbGUgPSBjb250YWluZXIgIkFwbGljYXRpdm8gbcOzdmVsIiAiQXBsaWNhdGl2byBxdWUgcGVybWl0ZSBvIGFjZXNzbyBhbyBjb250ZcO6ZG8gZSDDoHMgbm90w61jaWFzIGRvIHBvcnRhbC4iICJBbmRyb2lkL2lPUyIgIm1vYmlsZSIKICAgICAgICAgICAgcXVldWUgPSBjb250YWluZXIgIkZpbGEgZGUgcHJvY2Vzc2FtZW50byBlbSBzZWd1bmRvIHBsYW5vIiAiUmVjZWJlIGV2ZW50b3MgZGUgY3JpYcOnw6NvIGRlIGltYWdlbSBwYXJhIHNlcmVtIGNvbnN1bWlkb3MgcGVsbyBwcm9jZXNzYWRvci4iICJSYWJiaXRNUSIgInF1ZXVlIgogICAgICAgICAgICB3b3JrZXIgPSBjb250YWluZXIgIlByb2Nlc3NhZG9yIGRlIEltYWdlbnMiICJQcm9jZXNzYSBpbWFnZW5zIG90aW1pemFuZG8tYXMgZSBnZXJhbmRvIHRodW1ibmFpbHMuIiAiUHl0aG9uIiAid29ya2VyIgogICAgICAgIH0KCiAgICAgICAgcmVhZGVyIC0+IHBvcnRhbCAiQ29uc29tZSBub3TDrWNpYXMgZSBjb250ZcO6ZG8gZW0iCiAgICAgICAgcmVhZGVyIC0+IG1vYmlsZSAiQ29uc29tZSBub3TDrWNpYXMgZSBjb250ZcO6ZG8gZW0iCiAgICAgICAgd3JpdGVyIC0+IHBvcnRhbCAiRXNjcmV2ZSBjb250ZcO6ZG8gZW0iCiAgICAgICAgbW9iaWxlIC0+IHBvcnRhbCAiQ29uc29tZSBub3TDrWNpYXMgZSBjb250ZcO6ZG8gZW0iICJIVFRQUy9KU09OIgogICAgICAgIHBvcnRhbCAtPiBkYiAiTMOqIGRlIGUgZXNjcmV2ZSBlbSIgIlBvc3RncmVzcWwgUHJvdG9jb2wiCiAgICAgICAgcG9ydGFsIC0+IHN0b3JhZ2UgIkzDqiBkZSBlIGVzY3JldmUgZW0iICJIVFRQUy9KU09OIgogICAgICAgIHBvcnRhbCAtPiBxdWV1ZSAiRW52aWEgZXZlbnRvIGRlIGFkacOnw6NvIGRlIG5vdmEgaW1hZ2VtIHBhcmEiICJBTVFQIgogICAgICAgIHdvcmtlciAtPiBxdWV1ZSAiQ29uc29tZSBldmVudG9zIGRlIiAiQU1RUCIKICAgICAgICB3b3JrZXIgLT4gc3RvcmFnZSAiRXNjcmV2ZSBpbWFnZW5zIGVtIiAiSFRUUFMvSlNPTiIKICAgICAgICBwb3J0YWwgLT4gc3RvcmFnZSAiQ29uc29tZSBjb250ZcO6ZG8gZXN0w6F0aWNvIGRlIiAiSFRUUFMvSlNPTiIKICAgIH0KCiAgICB2aWV3cyB7CgogICAgICAgIHN5c3RlbWNvbnRleHQgY21zICJTeXN0ZW1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgY21zICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICAgICAgdGhlbWVzIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9jYXNzaW9ib3Rhcm8vbW9kZWxvQzQvbWFpbi9jbXMvdGhlbWUuanNvbgogICAgfQp9Cg=="
-  },
   "configuration" : { },
+  "description" : "Description",
+  "documentation" : { },
+  "id" : 1,
+  "lastModifiedAgent" : "structurizr-ui",
+  "lastModifiedDate" : "2025-03-29T21:22:04Z",
   "model" : {
-    "people" : [ {
-      "id" : "2",
-      "tags" : "Element,Person",
-      "properties" : {
-        "structurizr.dsl.identifier" : "writer"
-      },
-      "name" : "Editor",
-      "description" : "Pessoa que escreve conteúdo para o site.",
-      "relationships" : [ {
-        "id" : "13",
-        "tags" : "Relationship",
-        "sourceId" : "2",
-        "destinationId" : "4",
-        "description" : "Escreve conteúdo em"
+    "deploymentNodes" : [ {
+      "children" : [ {
+        "children" : [ {
+          "children" : [ {
+            "containerInstances" : [ {
+              "containerId" : "4",
+              "deploymentGroups" : [ "Default" ],
+              "environment" : "Production",
+              "id" : "47",
+              "instanceId" : 1,
+              "properties" : {
+                "structurizr.dsl.identifier" : "portalinstance"
+              },
+              "relationships" : [ {
+                "description" : "Lê de e escreve em",
+                "destinationId" : "53",
+                "id" : "54",
+                "linkedRelationshipId" : "24",
+                "sourceId" : "47",
+                "technology" : "SQL/TCP"
+              }, {
+                "description" : "Lê de e escreve em",
+                "destinationId" : "57",
+                "id" : "58",
+                "linkedRelationshipId" : "24",
+                "sourceId" : "47",
+                "technology" : "SQL/TCP"
+              }, {
+                "description" : "Envia evento de adição de nova imagem para",
+                "destinationId" : "62",
+                "id" : "63",
+                "linkedRelationshipId" : "26",
+                "sourceId" : "47",
+                "technology" : "AMQP"
+              }, {
+                "description" : "Lê de e escreve em",
+                "destinationId" : "66",
+                "id" : "67",
+                "linkedRelationshipId" : "25",
+                "sourceId" : "47",
+                "technology" : "HTTPS"
+              } ],
+              "tags" : "Container Instance"
+            } ],
+            "description" : "Servidor WSGI que executa a aplicação Django",
+            "environment" : "Production",
+            "id" : "46",
+            "instances" : "1",
+            "name" : "Gunicorn",
+            "properties" : {
+              "structurizr.dsl.identifier" : "fdba3119-aca3-4f3f-a114-0099c514939c"
+            },
+            "tags" : "Element,Deployment Node",
+            "technology" : "Gunicorn 20.x"
+          } ],
+          "description" : "Instâncias do Portal de Notícias",
+          "environment" : "Production",
+          "id" : "45",
+          "instances" : "4",
+          "name" : "VM - Portal",
+          "properties" : {
+            "structurizr.dsl.identifier" : "6845ca3a-9f53-4f7e-b05b-f878190a02ef"
+          },
+          "tags" : "Element,Deployment Node",
+          "technology" : "Ubuntu 16.04 LTS"
+        }, {
+          "containerInstances" : [ {
+            "containerId" : "15",
+            "deploymentGroups" : [ "Default" ],
+            "environment" : "Production",
+            "id" : "50",
+            "instanceId" : 1,
+            "properties" : {
+              "structurizr.dsl.identifier" : "workerinstance"
+            },
+            "relationships" : [ {
+              "description" : "Atualiza imagens processadas em",
+              "destinationId" : "47",
+              "id" : "51",
+              "linkedRelationshipId" : "40",
+              "sourceId" : "50"
+            }, {
+              "description" : "Atualiza informações em",
+              "destinationId" : "53",
+              "id" : "55",
+              "linkedRelationshipId" : "31",
+              "sourceId" : "50",
+              "technology" : "SQL/TCP"
+            }, {
+              "description" : "Atualiza informações em",
+              "destinationId" : "57",
+              "id" : "59",
+              "linkedRelationshipId" : "31",
+              "sourceId" : "50",
+              "technology" : "SQL/TCP"
+            }, {
+              "description" : "Consome eventos de",
+              "destinationId" : "62",
+              "id" : "64",
+              "linkedRelationshipId" : "27",
+              "sourceId" : "50",
+              "technology" : "AMQP"
+            }, {
+              "description" : "Lê de e escreve em",
+              "destinationId" : "66",
+              "id" : "68",
+              "linkedRelationshipId" : "28",
+              "sourceId" : "50",
+              "technology" : "HTTPS/JSON"
+            } ],
+            "tags" : "Container Instance"
+          } ],
+          "description" : "Instância que processa imagens",
+          "environment" : "Production",
+          "id" : "49",
+          "instances" : "1",
+          "name" : "VM - Worker",
+          "properties" : {
+            "structurizr.dsl.identifier" : "50b5d15c-37da-4220-8378-dedd7e62181a"
+          },
+          "tags" : "Element,Deployment Node",
+          "technology" : "Ubuntu 22.04 LTS"
+        }, {
+          "containerInstances" : [ {
+            "containerId" : "11",
+            "deploymentGroups" : [ "Default" ],
+            "environment" : "Production",
+            "id" : "53",
+            "instanceId" : 1,
+            "properties" : {
+              "structurizr.dsl.identifier" : "dbprimaryinstance"
+            },
+            "tags" : "Container Instance"
+          } ],
+          "description" : "Instância principal do banco de dados",
+          "environment" : "Production",
+          "id" : "52",
+          "instances" : "1",
+          "name" : "VM - Banco de Dados (Primário)",
+          "properties" : {
+            "structurizr.dsl.identifier" : "d0569878-99cb-4482-9d55-75d350979e27"
+          },
+          "tags" : "Element,Deployment Node",
+          "technology" : "Ubuntu 22.04 LTS"
+        }, {
+          "containerInstances" : [ {
+            "containerId" : "11",
+            "deploymentGroups" : [ "Default" ],
+            "environment" : "Production",
+            "id" : "57",
+            "instanceId" : 1,
+            "properties" : {
+              "structurizr.dsl.identifier" : "dbreplicainstance"
+            },
+            "tags" : "Container Instance"
+          } ],
+          "description" : "Réplica do banco de dados para leitura",
+          "environment" : "Production",
+          "id" : "56",
+          "instances" : "1",
+          "name" : "VM - Banco de Dados (Réplica)",
+          "properties" : {
+            "structurizr.dsl.identifier" : "3536be31-75fb-458c-9724-1fe2544a9794"
+          },
+          "tags" : "Element,Deployment Node",
+          "technology" : "Ubuntu 22.04 LTS"
+        }, {
+          "children" : [ {
+            "containerInstances" : [ {
+              "containerId" : "14",
+              "deploymentGroups" : [ "Default" ],
+              "environment" : "Production",
+              "id" : "62",
+              "instanceId" : 1,
+              "properties" : {
+                "structurizr.dsl.identifier" : "queueinstance"
+              },
+              "tags" : "Container Instance"
+            } ],
+            "description" : "Servidor RabbitMQ para filas de mensagens",
+            "environment" : "Production",
+            "id" : "61",
+            "instances" : "1",
+            "name" : "RabbitMQ",
+            "properties" : {
+              "structurizr.dsl.identifier" : "09264719-86c7-46c2-8e05-cd327da41479"
+            },
+            "tags" : "Element,Deployment Node",
+            "technology" : "RabbitMQ 3.x"
+          } ],
+          "description" : "Instância que gerencia a fila de mensagens",
+          "environment" : "Production",
+          "id" : "60",
+          "instances" : "1",
+          "name" : "VM - RabbitMQ",
+          "properties" : {
+            "structurizr.dsl.identifier" : "6c1b42d3-7f68-4307-ae12-061ee0954b67"
+          },
+          "tags" : "Element,Deployment Node",
+          "technology" : "Ubuntu 22.04 LTS"
+        } ],
+        "description" : "Região de hospedagem do CMS",
+        "environment" : "Production",
+        "id" : "43",
+        "infrastructureNodes" : [ {
+          "description" : "Gerencia e distribui o tráfego para o Portal de Notícias.",
+          "environment" : "Production",
+          "id" : "44",
+          "name" : "Load Balancer",
+          "properties" : {
+            "structurizr.dsl.identifier" : "traefiklb"
+          },
+          "relationships" : [ {
+            "description" : "envia requisições para",
+            "destinationId" : "47",
+            "id" : "48",
+            "sourceId" : "44",
+            "tags" : "Relationship",
+            "technology" : "HTTPS"
+          } ],
+          "tags" : "Element,Infrastructure Node",
+          "technology" : "Traefik 3.x"
+        } ],
+        "instances" : "1",
+        "name" : "Região se-1",
+        "properties" : {
+          "structurizr.dsl.identifier" : "317ee405-3b5b-4945-b03b-5b434bdcd3a4"
+        },
+        "tags" : "Element,Deployment Node",
+        "technology" : "Magalu Cloud Region"
       }, {
-        "id" : "14",
-        "sourceId" : "2",
-        "destinationId" : "3",
-        "description" : "Escreve conteúdo em",
-        "linkedRelationshipId" : "13"
+        "containerInstances" : [ {
+          "containerId" : "12",
+          "deploymentGroups" : [ "Default" ],
+          "environment" : "Production",
+          "id" : "66",
+          "instanceId" : 1,
+          "properties" : {
+            "structurizr.dsl.identifier" : "storageinstance"
+          },
+          "tags" : "Container Instance"
+        } ],
+        "description" : "Armazena as imagens do portal",
+        "environment" : "Production",
+        "id" : "65",
+        "instances" : "1",
+        "name" : "Object Storage - Magalu",
+        "properties" : {
+          "structurizr.dsl.identifier" : "d6955d2c-640a-44af-94bf-e1111f5dcdbd"
+        },
+        "tags" : "Element,Deployment Node",
+        "technology" : "Magalu Object Storage"
       } ],
-      "location" : "Unspecified"
+      "description" : "Ambiente de produção na Magalu Cloud",
+      "environment" : "Production",
+      "id" : "42",
+      "instances" : "1",
+      "name" : "Magalu Cloud",
+      "properties" : {
+        "structurizr.dsl.identifier" : "6b3243df-c528-4226-a9d8-e0c5bb821b97"
+      },
+      "tags" : "Element,Deployment Node",
+      "technology" : "Magalu Cloud Infrastructure"
     }, {
+      "containerInstances" : [ {
+        "containerId" : "13",
+        "deploymentGroups" : [ "Default" ],
+        "environment" : "Production",
+        "id" : "70",
+        "instanceId" : 1,
+        "properties" : {
+          "structurizr.dsl.identifier" : "mobileinstance"
+        },
+        "relationships" : [ {
+          "description" : "Consome notícias e conteúdo em",
+          "destinationId" : "47",
+          "id" : "71",
+          "linkedRelationshipId" : "23",
+          "sourceId" : "70",
+          "technology" : "HTTPS/JSON"
+        } ],
+        "tags" : "Container Instance"
+      } ],
+      "description" : "Acesso ao Portal via App",
+      "environment" : "Production",
+      "id" : "69",
+      "instances" : "1",
+      "name" : "Dispositivos Móveis",
+      "properties" : {
+        "structurizr.dsl.identifier" : "d7e8ed80-7b3b-45ce-ad8e-7ab606fb7b3b"
+      },
+      "tags" : "Element,Deployment Node",
+      "technology" : "Android/iOS"
+    } ],
+    "people" : [ {
+      "description" : "Pessoa que consome as notícias do site.",
       "id" : "1",
-      "tags" : "Element,Person",
+      "location" : "Unspecified",
+      "name" : "Leitor",
       "properties" : {
         "structurizr.dsl.identifier" : "reader"
       },
-      "name" : "Leitor",
-      "description" : "Pessoa que consome as notícias do site.",
       "relationships" : [ {
-        "id" : "12",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "7",
-        "description" : "Consome notícias e conteúdo em"
-      }, {
-        "id" : "10",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "4",
-        "description" : "Consome notícias e conteúdo em"
-      }, {
-        "id" : "11",
-        "sourceId" : "1",
-        "destinationId" : "3",
         "description" : "Consome notícias e conteúdo em",
-        "linkedRelationshipId" : "10"
+        "destinationId" : "4",
+        "id" : "17",
+        "sourceId" : "1",
+        "tags" : "Relationship"
+      }, {
+        "description" : "Consome notícias e conteúdo em",
+        "destinationId" : "3",
+        "id" : "18",
+        "linkedRelationshipId" : "17",
+        "sourceId" : "1"
+      }, {
+        "description" : "Consome notícias e conteúdo em",
+        "destinationId" : "13",
+        "id" : "19",
+        "sourceId" : "1",
+        "tags" : "Relationship"
       } ],
-      "location" : "Unspecified"
+      "tags" : "Element,Person"
+    }, {
+      "description" : "Pessoa que escreve conteúdo para o site.",
+      "id" : "2",
+      "location" : "Unspecified",
+      "name" : "Editor",
+      "properties" : {
+        "structurizr.dsl.identifier" : "writer"
+      },
+      "relationships" : [ {
+        "description" : "Escreve conteúdo em",
+        "destinationId" : "4",
+        "id" : "20",
+        "sourceId" : "2",
+        "tags" : "Relationship"
+      }, {
+        "description" : "Escreve conteúdo em",
+        "destinationId" : "3",
+        "id" : "21",
+        "linkedRelationshipId" : "20",
+        "sourceId" : "2"
+      } ],
+      "tags" : "Element,Person"
     } ],
     "softwareSystems" : [ {
-      "id" : "3",
-      "tags" : "Element,Software System",
-      "properties" : {
-        "structurizr.dsl.identifier" : "cms"
-      },
-      "name" : "CMS",
-      "description" : "Sistema de gerenciamento de conteúdo.",
-      "location" : "Unspecified",
       "containers" : [ {
-        "id" : "9",
-        "tags" : "Element,Container,worker",
-        "properties" : {
-          "structurizr.dsl.identifier" : "worker"
-        },
-        "name" : "Processador de Imagens",
-        "description" : "Processa imagens otimizando-as e gerando thumbnails.",
-        "relationships" : [ {
-          "id" : "20",
-          "tags" : "Relationship",
-          "sourceId" : "9",
-          "destinationId" : "6",
-          "description" : "Escreve imagens em",
-          "technology" : "HTTPS/JSON"
+        "components" : [ {
+          "description" : "Interface administrativa para criação e publicação de notícias.",
+          "documentation" : { },
+          "id" : "5",
+          "name" : "AdminNoticia",
+          "properties" : {
+            "structurizr.dsl.identifier" : "adminnoticia"
+          },
+          "relationships" : [ {
+            "description" : "Cria e atualiza notícias utilizando",
+            "destinationId" : "10",
+            "id" : "32",
+            "sourceId" : "5",
+            "tags" : "Relationship"
+          }, {
+            "description" : "Dispara notificação ao publicar notícia",
+            "destinationId" : "8",
+            "id" : "33",
+            "sourceId" : "5",
+            "tags" : "Relationship"
+          }, {
+            "description" : "Envia evento para processar imagens em",
+            "destinationId" : "9",
+            "id" : "34",
+            "sourceId" : "5",
+            "tags" : "Relationship"
+          } ],
+          "tags" : "Element,Component",
+          "technology" : "Django Admin"
         }, {
-          "id" : "19",
-          "tags" : "Relationship",
-          "sourceId" : "9",
-          "destinationId" : "8",
-          "description" : "Consome eventos de",
-          "technology" : "AMQP"
+          "description" : "Exposição de notícias em formato JSON para consumo externo.",
+          "documentation" : { },
+          "id" : "6",
+          "name" : "NoticiaAPI",
+          "properties" : {
+            "structurizr.dsl.identifier" : "noticiaapi"
+          },
+          "relationships" : [ {
+            "description" : "Consulta notícias publicadas utilizando",
+            "destinationId" : "10",
+            "id" : "35",
+            "sourceId" : "6",
+            "tags" : "Relationship"
+          } ],
+          "tags" : "Element,Component",
+          "technology" : "Django REST Framework"
+        }, {
+          "description" : "Exibe notícias em uma interface amigável no navegador.",
+          "documentation" : { },
+          "id" : "7",
+          "name" : "NoticiaWeb",
+          "properties" : {
+            "structurizr.dsl.identifier" : "noticiaweb"
+          },
+          "relationships" : [ {
+            "description" : "Exibe notícias armazenadas utilizando",
+            "destinationId" : "10",
+            "id" : "36",
+            "sourceId" : "7",
+            "tags" : "Relationship"
+          } ],
+          "tags" : "Element,Component",
+          "technology" : "Django Templates"
+        }, {
+          "description" : "Envia notificações quando uma notícia é publicada.",
+          "documentation" : { },
+          "id" : "8",
+          "name" : "NotificacaoPublicacao",
+          "properties" : {
+            "structurizr.dsl.identifier" : "notificacaopublicacao"
+          },
+          "relationships" : [ {
+            "description" : "Envia e-mails de nova publicação para",
+            "destinationId" : "16",
+            "id" : "37",
+            "sourceId" : "8",
+            "tags" : "Relationship"
+          } ],
+          "tags" : "Element,Component",
+          "technology" : "Django Signals"
+        }, {
+          "description" : "Envia eventos para a fila de processamento de imagens.",
+          "documentation" : { },
+          "id" : "9",
+          "name" : "PublicadorFila",
+          "properties" : {
+            "structurizr.dsl.identifier" : "publicadorfila"
+          },
+          "relationships" : [ {
+            "description" : "Publica mensagens na fila para",
+            "destinationId" : "14",
+            "id" : "38",
+            "sourceId" : "9",
+            "tags" : "Relationship"
+          } ],
+          "tags" : "Element,Component",
+          "technology" : "Dramatiq"
+        }, {
+          "description" : "Modelo que representa a notícia no banco de dados.",
+          "documentation" : { },
+          "id" : "10",
+          "name" : "ModeloNoticia",
+          "properties" : {
+            "structurizr.dsl.identifier" : "modelonoticia"
+          },
+          "relationships" : [ {
+            "description" : "Lê de e escreve em",
+            "destinationId" : "11",
+            "id" : "41",
+            "sourceId" : "10",
+            "tags" : "Relationship"
+          } ],
+          "tags" : "Element,Component",
+          "technology" : "Django ORM"
         } ],
-        "technology" : "Python",
-        "documentation" : { }
-      }, {
+        "description" : "Site que fornece as notícias e conteúdos via browser ou api. Possui área administrativa para editores.",
+        "documentation" : { },
         "id" : "4",
-        "tags" : "Element,Container,django",
+        "name" : "Portal de Notícias",
         "properties" : {
           "structurizr.dsl.identifier" : "portal"
         },
-        "name" : "Portal de Notícias",
-        "description" : "Site que fornece as notícias e conteúdos. Possui área acessível somente para editores.",
         "relationships" : [ {
-          "id" : "18",
-          "tags" : "Relationship",
+          "description" : "Lê de e escreve em",
+          "destinationId" : "11",
+          "id" : "24",
           "sourceId" : "4",
-          "destinationId" : "8",
+          "tags" : "Relationship",
+          "technology" : "SQL/TCP"
+        }, {
+          "description" : "Lê de e escreve em",
+          "destinationId" : "12",
+          "id" : "25",
+          "sourceId" : "4",
+          "tags" : "Relationship",
+          "technology" : "HTTPS"
+        }, {
           "description" : "Envia evento de adição de nova imagem para",
+          "destinationId" : "14",
+          "id" : "26",
+          "sourceId" : "4",
+          "tags" : "Relationship",
           "technology" : "AMQP"
         }, {
-          "id" : "21",
-          "tags" : "Relationship",
+          "description" : "Envia e-mails utilizando",
+          "destinationId" : "16",
+          "id" : "29",
           "sourceId" : "4",
-          "destinationId" : "6",
-          "description" : "Consome conteúdo estático de",
-          "technology" : "HTTPS/JSON"
-        }, {
-          "id" : "16",
           "tags" : "Relationship",
-          "sourceId" : "4",
-          "destinationId" : "5",
-          "description" : "Lê de e escreve em",
-          "technology" : "Postgresql Protocol"
-        }, {
-          "id" : "17",
-          "tags" : "Relationship",
-          "sourceId" : "4",
-          "destinationId" : "6",
-          "description" : "Lê de e escreve em",
-          "technology" : "HTTPS/JSON"
+          "technology" : "SMTP"
         } ],
-        "technology" : "Python and Django",
-        "documentation" : { }
+        "tags" : "Element,Container,browser",
+        "technology" : "Python e Django"
       }, {
-        "id" : "7",
-        "tags" : "Element,Container,mobile",
-        "properties" : {
-          "structurizr.dsl.identifier" : "mobile"
-        },
-        "name" : "Aplicativo móvel",
-        "description" : "Aplicativo que permite o acesso ao conteúdo e às notícias do portal.",
-        "relationships" : [ {
-          "id" : "15",
-          "tags" : "Relationship",
-          "sourceId" : "7",
-          "destinationId" : "4",
-          "description" : "Consome notícias e conteúdo em",
-          "technology" : "HTTPS/JSON"
-        } ],
-        "technology" : "Android/iOS",
-        "documentation" : { }
-      }, {
-        "id" : "8",
-        "tags" : "Element,Container,queue",
-        "properties" : {
-          "structurizr.dsl.identifier" : "queue"
-        },
-        "name" : "Fila de processamento em segundo plano",
-        "description" : "Recebe eventos de criação de imagem para serem consumidos pelo processador.",
-        "technology" : "RabbitMQ",
-        "documentation" : { }
-      }, {
-        "id" : "5",
-        "tags" : "Element,Container,db",
+        "description" : "Armazena notícias e informações sobre usuários.",
+        "documentation" : { },
+        "id" : "11",
+        "name" : "Banco de Dados",
         "properties" : {
           "structurizr.dsl.identifier" : "db"
         },
-        "name" : "Banco de Dados",
-        "description" : "Armazena notícias e informações sobre usuários.",
-        "technology" : "Postgresql",
-        "documentation" : { }
+        "tags" : "Element,Container,db",
+        "technology" : "Postgresql"
       }, {
-        "id" : "6",
-        "tags" : "Element,Container,storage,aws",
+        "description" : "Armazena imagens que serão utilizadas nas notícias e no conteúdo do portal.",
+        "documentation" : { },
+        "id" : "12",
+        "name" : "Armazenamento de imagens",
         "properties" : {
           "structurizr.dsl.identifier" : "storage"
         },
-        "name" : "Armazenamento de imagens",
-        "description" : "Armazena imagens que serão utilizadas nas notícias e no conteúdo do portal.",
-        "technology" : "Bucket S3",
-        "documentation" : { }
+        "tags" : "Element,Container,storage",
+        "technology" : "Object Storage Magalu"
+      }, {
+        "description" : "Aplicativo que permite o acesso ao conteúdo e às notícias do portal.",
+        "documentation" : { },
+        "id" : "13",
+        "name" : "Aplicativo móvel",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mobile"
+        },
+        "relationships" : [ {
+          "description" : "Consome notícias e conteúdo em",
+          "destinationId" : "4",
+          "id" : "23",
+          "sourceId" : "13",
+          "tags" : "Relationship",
+          "technology" : "HTTPS/JSON"
+        } ],
+        "tags" : "Element,Container,mobile",
+        "technology" : "Android/iOS"
+      }, {
+        "description" : "Recebe eventos de criação de imagem para serem consumidos pelo processador.",
+        "documentation" : { },
+        "id" : "14",
+        "name" : "Fila de processamento em segundo plano",
+        "properties" : {
+          "structurizr.dsl.identifier" : "queue"
+        },
+        "tags" : "Element,Container,queue",
+        "technology" : "RabbitMQ"
+      }, {
+        "description" : "Processa imagens otimizando-as e gerando thumbnails.",
+        "documentation" : { },
+        "id" : "15",
+        "name" : "Processador de Imagens",
+        "properties" : {
+          "structurizr.dsl.identifier" : "worker"
+        },
+        "relationships" : [ {
+          "description" : "Consome eventos de",
+          "destinationId" : "14",
+          "id" : "27",
+          "sourceId" : "15",
+          "tags" : "Relationship",
+          "technology" : "AMQP"
+        }, {
+          "description" : "Lê de e escreve em",
+          "destinationId" : "12",
+          "id" : "28",
+          "sourceId" : "15",
+          "tags" : "Relationship",
+          "technology" : "HTTPS/JSON"
+        }, {
+          "description" : "Atualiza informações em",
+          "destinationId" : "11",
+          "id" : "31",
+          "sourceId" : "15",
+          "tags" : "Relationship",
+          "technology" : "SQL/TCP"
+        }, {
+          "description" : "Atualiza imagens processadas em",
+          "destinationId" : "10",
+          "id" : "39",
+          "sourceId" : "15",
+          "tags" : "Relationship"
+        }, {
+          "description" : "Atualiza imagens processadas em",
+          "destinationId" : "4",
+          "id" : "40",
+          "linkedRelationshipId" : "39",
+          "sourceId" : "15"
+        } ],
+        "tags" : "Element,Container,worker",
+        "technology" : "Python"
       } ],
-      "documentation" : { }
+      "description" : "Sistema de gerenciamento de conteúdo.",
+      "documentation" : { },
+      "id" : "3",
+      "location" : "Unspecified",
+      "name" : "CMS",
+      "properties" : {
+        "structurizr.dsl.identifier" : "cms"
+      },
+      "relationships" : [ {
+        "description" : "Envia e-mails utilizando",
+        "destinationId" : "16",
+        "id" : "22",
+        "sourceId" : "3",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Software System"
+    }, {
+      "description" : "Serviço utilizado para envio de e-mails.",
+      "documentation" : { },
+      "id" : "16",
+      "location" : "Unspecified",
+      "name" : "Gmail",
+      "properties" : {
+        "structurizr.dsl.identifier" : "email"
+      },
+      "relationships" : [ {
+        "description" : "Envia e-mails de novidades para",
+        "destinationId" : "1",
+        "id" : "30",
+        "sourceId" : "16",
+        "tags" : "Relationship"
+      } ],
+      "tags" : "Element,Software System,external"
     } ]
   },
-  "documentation" : { },
+  "name" : "CMS",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJDTVMiIHsKICBtb2RlbCB7CiAgICByZWFkZXIgPSBwZXJzb24gIkxlaXRvciIgIlBlc3NvYSBxdWUgY29uc29tZSBhcyBub3TDrWNpYXMgZG8gc2l0ZS4iCiAgICB3cml0ZXIgPSBwZXJzb24gIkVkaXRvciIgIlBlc3NvYSBxdWUgZXNjcmV2ZSBjb250ZcO6ZG8gcGFyYSBvIHNpdGUuIgoKICAgIGNtcyA9IHNvZnR3YXJlc3lzdGVtICJDTVMiICJTaXN0ZW1hIGRlIGdlcmVuY2lhbWVudG8gZGUgY29udGXDumRvLiJ7CiAgICAgIHBvcnRhbCA9IGNvbnRhaW5lciAiUG9ydGFsIGRlIE5vdMOtY2lhcyIgIlNpdGUgcXVlIGZvcm5lY2UgYXMgbm90w61jaWFzIGUgY29udGXDumRvcyB2aWEgYnJvd3NlciBvdSBhcGkuIFBvc3N1aSDDoXJlYSBhZG1pbmlzdHJhdGl2YSBwYXJhIGVkaXRvcmVzLiIgIlB5dGhvbiBlIERqYW5nbyIgImJyb3dzZXIiewogICAgICAgIGFkbWluTm90aWNpYSA9IGNvbXBvbmVudCAiQWRtaW5Ob3RpY2lhIiAiSW50ZXJmYWNlIGFkbWluaXN0cmF0aXZhIHBhcmEgY3JpYcOnw6NvIGUgcHVibGljYcOnw6NvIGRlIG5vdMOtY2lhcy4iICJEamFuZ28gQWRtaW4iCiAgICAgICAgbm90aWNpYUFQSSA9IGNvbXBvbmVudCAiTm90aWNpYUFQSSIgIkV4cG9zacOnw6NvIGRlIG5vdMOtY2lhcyBlbSBmb3JtYXRvIEpTT04gcGFyYSBjb25zdW1vIGV4dGVybm8uIiAiRGphbmdvIFJFU1QgRnJhbWV3b3JrIgogICAgICAgIG5vdGljaWFXZWIgPSBjb21wb25lbnQgIk5vdGljaWFXZWIiICJFeGliZSBub3TDrWNpYXMgZW0gdW1hIGludGVyZmFjZSBhbWlnw6F2ZWwgbm8gbmF2ZWdhZG9yLiIgIkRqYW5nbyBUZW1wbGF0ZXMiCiAgICAgICAgbm90aWZpY2FjYW9QdWJsaWNhY2FvID0gY29tcG9uZW50ICJOb3RpZmljYWNhb1B1YmxpY2FjYW8iICJFbnZpYSBub3RpZmljYcOnw7VlcyBxdWFuZG8gdW1hIG5vdMOtY2lhIMOpIHB1YmxpY2FkYS4iICJEamFuZ28gU2lnbmFscyIKICAgICAgICBwdWJsaWNhZG9yRmlsYSA9IGNvbXBvbmVudCAiUHVibGljYWRvckZpbGEiICJFbnZpYSBldmVudG9zIHBhcmEgYSBmaWxhIGRlIHByb2Nlc3NhbWVudG8gZGUgaW1hZ2Vucy4iICJEcmFtYXRpcSIKICAgICAgICBtb2RlbG9Ob3RpY2lhID0gY29tcG9uZW50ICJNb2RlbG9Ob3RpY2lhIiAiTW9kZWxvIHF1ZSByZXByZXNlbnRhIGEgbm90w61jaWEgbm8gYmFuY28gZGUgZGFkb3MuIiAiRGphbmdvIE9STSIKICAgICAgfQogICAgICBkYiA9IGNvbnRhaW5lciAiQmFuY28gZGUgRGFkb3MiICJBcm1hemVuYSBub3TDrWNpYXMgZSBpbmZvcm1hw6fDtWVzIHNvYnJlIHVzdcOhcmlvcy4iICJQb3N0Z3Jlc3FsIiAiZGIiCiAgICAgIHN0b3JhZ2UgPSBjb250YWluZXIgIkFybWF6ZW5hbWVudG8gZGUgaW1hZ2VucyIgIkFybWF6ZW5hIGltYWdlbnMgcXVlIHNlcsOjbyB1dGlsaXphZGFzIG5hcyBub3TDrWNpYXMgZSBubyBjb250ZcO6ZG8gZG8gcG9ydGFsLiIgIk9iamVjdCBTdG9yYWdlIE1hZ2FsdSIgInN0b3JhZ2UiCiAgICAgIG1vYmlsZSA9IGNvbnRhaW5lciAiQXBsaWNhdGl2byBtw7N2ZWwiICJBcGxpY2F0aXZvIHF1ZSBwZXJtaXRlIG8gYWNlc3NvIGFvIGNvbnRlw7pkbyBlIMOgcyBub3TDrWNpYXMgZG8gcG9ydGFsLiIgIkFuZHJvaWQvaU9TIiAibW9iaWxlIgogICAgICBxdWV1ZSA9IGNvbnRhaW5lciAiRmlsYSBkZSBwcm9jZXNzYW1lbnRvIGVtIHNlZ3VuZG8gcGxhbm8iICJSZWNlYmUgZXZlbnRvcyBkZSBjcmlhw6fDo28gZGUgaW1hZ2VtIHBhcmEgc2VyZW0gY29uc3VtaWRvcyBwZWxvIHByb2Nlc3NhZG9yLiIgIlJhYmJpdE1RIiAicXVldWUiCiAgICAgIHdvcmtlciA9IGNvbnRhaW5lciAiUHJvY2Vzc2Fkb3IgZGUgSW1hZ2VucyIgIlByb2Nlc3NhIGltYWdlbnMgb3RpbWl6YW5kby1hcyBlIGdlcmFuZG8gdGh1bWJuYWlscy4iICJQeXRob24iICJ3b3JrZXIiCiAgICB9CiAgICBlbWFpbCA9IHNvZnR3YXJlc3lzdGVtICJHbWFpbCIgIlNlcnZpw6dvIHV0aWxpemFkbyBwYXJhIGVudmlvIGRlIGUtbWFpbHMuIiAiZXh0ZXJuYWwiCgogICAgcmVhZGVyIC0+IHBvcnRhbCAiQ29uc29tZSBub3TDrWNpYXMgZSBjb250ZcO6ZG8gZW0iCiAgICByZWFkZXIgLT4gbW9iaWxlICJDb25zb21lIG5vdMOtY2lhcyBlIGNvbnRlw7pkbyBlbSIKICAgIHdyaXRlciAtPiBwb3J0YWwgIkVzY3JldmUgY29udGXDumRvIGVtIgogICAgY21zIC0+IGVtYWlsICJFbnZpYSBlLW1haWxzIHV0aWxpemFuZG8iCiAgICBtb2JpbGUgLT4gcG9ydGFsICJDb25zb21lIG5vdMOtY2lhcyBlIGNvbnRlw7pkbyBlbSIgIkhUVFBTL0pTT04iCiAgICBwb3J0YWwgLT4gZGIgIkzDqiBkZSBlIGVzY3JldmUgZW0iICJTUUwvVENQIgogICAgcG9ydGFsIC0+IHN0b3JhZ2UgIkzDqiBkZSBlIGVzY3JldmUgZW0iICJIVFRQUyIKICAgIHBvcnRhbCAtPiBxdWV1ZSAiRW52aWEgZXZlbnRvIGRlIGFkacOnw6NvIGRlIG5vdmEgaW1hZ2VtIHBhcmEiICJBTVFQIgogICAgd29ya2VyIC0+IHF1ZXVlICJDb25zb21lIGV2ZW50b3MgZGUiICJBTVFQIgogICAgd29ya2VyIC0+IHN0b3JhZ2UgIkzDqiBkZSBlIGVzY3JldmUgZW0iICJIVFRQUy9KU09OIgogICAgcG9ydGFsIC0+IGVtYWlsICJFbnZpYSBlLW1haWxzIHV0aWxpemFuZG8iICJTTVRQIgogICAgZW1haWwgLT4gcmVhZGVyICJFbnZpYSBlLW1haWxzIGRlIG5vdmlkYWRlcyBwYXJhIgogICAgd29ya2VyIC0+IGRiICJBdHVhbGl6YSBpbmZvcm1hw6fDtWVzIGVtIiAiU1FML1RDUCIKCiAgICBhZG1pbk5vdGljaWEgLT4gbW9kZWxvTm90aWNpYSAiQ3JpYSBlIGF0dWFsaXphIG5vdMOtY2lhcyB1dGlsaXphbmRvIgogICAgYWRtaW5Ob3RpY2lhIC0+IG5vdGlmaWNhY2FvUHVibGljYWNhbyAiRGlzcGFyYSBub3RpZmljYcOnw6NvIGFvIHB1YmxpY2FyIG5vdMOtY2lhIgogICAgYWRtaW5Ob3RpY2lhIC0+IHB1YmxpY2Fkb3JGaWxhICJFbnZpYSBldmVudG8gcGFyYSBwcm9jZXNzYXIgaW1hZ2VucyBlbSIKICAgIG5vdGljaWFBUEkgLT4gbW9kZWxvTm90aWNpYSAiQ29uc3VsdGEgbm90w61jaWFzIHB1YmxpY2FkYXMgdXRpbGl6YW5kbyIKICAgIG5vdGljaWFXZWIgLT4gbW9kZWxvTm90aWNpYSAiRXhpYmUgbm90w61jaWFzIGFybWF6ZW5hZGFzIHV0aWxpemFuZG8iCiAgICBub3RpZmljYWNhb1B1YmxpY2FjYW8gLT4gZW1haWwgIkVudmlhIGUtbWFpbHMgZGUgbm92YSBwdWJsaWNhw6fDo28gcGFyYSIKICAgIHB1YmxpY2Fkb3JGaWxhIC0+IHF1ZXVlICJQdWJsaWNhIG1lbnNhZ2VucyBuYSBmaWxhIHBhcmEiCiAgICB3b3JrZXIgLT4gbW9kZWxvTm90aWNpYSAiQXR1YWxpemEgaW1hZ2VucyBwcm9jZXNzYWRhcyBlbSIKICAgIG1vZGVsb05vdGljaWEgLT4gZGIgIkzDqiBkZSBlIGVzY3JldmUgZW0iCgpwcm9kID0gZGVwbG95bWVudEVudmlyb25tZW50ICJQcm9kdWN0aW9uIiB7CgogICAgZGVwbG95bWVudE5vZGUgIk1hZ2FsdSBDbG91ZCIgIkFtYmllbnRlIGRlIHByb2R1w6fDo28gbmEgTWFnYWx1IENsb3VkIiAiTWFnYWx1IENsb3VkIEluZnJhc3RydWN0dXJlIiB7CgogICAgICAgIGRlcGxveW1lbnROb2RlICJSZWdpw6NvIHNlLTEiICJSZWdpw6NvIGRlIGhvc3BlZGFnZW0gZG8gQ01TIiAiTWFnYWx1IENsb3VkIFJlZ2lvbiIgewoKICAgICAgICAgICAgLy8gTG9hZCBCYWxhbmNlciBjb20gVHJhZWZpawogICAgICAgICAgICB0cmFlZmlrTEIgPSBpbmZyYXN0cnVjdHVyZU5vZGUgIkxvYWQgQmFsYW5jZXIiIHsKICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlRyYWVmaWsgMy54IgogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkdlcmVuY2lhIGUgZGlzdHJpYnVpIG8gdHLDoWZlZ28gcGFyYSBvIFBvcnRhbCBkZSBOb3TDrWNpYXMuIgogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBRdWF0cm8gaW5zdMOibmNpYXMgZG8gUG9ydGFsIGRlIE5vdMOtY2lhcyBkZW50cm8gZGUgR3VuaWNvcm4KICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIlZNIC0gUG9ydGFsIiAiSW5zdMOibmNpYXMgZG8gUG9ydGFsIGRlIE5vdMOtY2lhcyIgIlVidW50dSAxNi4wNCBMVFMiICIiIDQgewogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkd1bmljb3JuIiAiU2Vydmlkb3IgV1NHSSBxdWUgZXhlY3V0YSBhIGFwbGljYcOnw6NvIERqYW5nbyIgIkd1bmljb3JuIDIwLngiIHsKICAgICAgICAgICAgICAgICAgICBwb3J0YWxJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIHBvcnRhbCB7CiAgICAgICAgICAgICAgICAgICAgICB0cmFlZmlrTEIgLT4gdGhpcyAiZW52aWEgcmVxdWlzacOnw7VlcyBwYXJhIiAiSFRUUFMiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBXb3JrZXIgcGFyYSBwcm9jZXNzYW1lbnRvIGRlIGltYWdlbnMKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIlZNIC0gV29ya2VyIiAiSW5zdMOibmNpYSBxdWUgcHJvY2Vzc2EgaW1hZ2VucyIgIlVidW50dSAyMi4wNCBMVFMiIHsKICAgICAgICAgICAgICAgIHdvcmtlckluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2Ugd29ya2VyCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIEJhbmNvIGRlIERhZG9zIFByaW5jaXBhbAogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiVk0gLSBCYW5jbyBkZSBEYWRvcyAoUHJpbcOhcmlvKSIgIkluc3TDom5jaWEgcHJpbmNpcGFsIGRvIGJhbmNvIGRlIGRhZG9zIiAiVWJ1bnR1IDIyLjA0IExUUyIgewogICAgICAgICAgICAgICAgZGJQcmltYXJ5SW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBkYgogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBSw6lwbGljYSBkbyBCYW5jbyBkZSBEYWRvcwogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiVk0gLSBCYW5jbyBkZSBEYWRvcyAoUsOpcGxpY2EpIiAiUsOpcGxpY2EgZG8gYmFuY28gZGUgZGFkb3MgcGFyYSBsZWl0dXJhIiAiVWJ1bnR1IDIyLjA0IExUUyIgewogICAgICAgICAgICAgICAgZGJSZXBsaWNhSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBkYgogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBSYWJiaXRNUSBwYXJhIGdlcmVuY2lhbWVudG8gZGEgZmlsYQogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiVk0gLSBSYWJiaXRNUSIgIkluc3TDom5jaWEgcXVlIGdlcmVuY2lhIGEgZmlsYSBkZSBtZW5zYWdlbnMiICJVYnVudHUgMjIuMDQgTFRTIiB7CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiUmFiYml0TVEiICJTZXJ2aWRvciBSYWJiaXRNUSBwYXJhIGZpbGFzIGRlIG1lbnNhZ2VucyIgIlJhYmJpdE1RIDMueCIgewogICAgICAgICAgICAgICAgICAgIHF1ZXVlSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBxdWV1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyBPYmplY3QgU3RvcmFnZSBkYSBNYWdhbHUgcGFyYSBhcm1hemVuYXIgYXMgaW1hZ2VucwogICAgICAgIGRlcGxveW1lbnROb2RlICJPYmplY3QgU3RvcmFnZSAtIE1hZ2FsdSIgIkFybWF6ZW5hIGFzIGltYWdlbnMgZG8gcG9ydGFsIiAiTWFnYWx1IE9iamVjdCBTdG9yYWdlIiB7CiAgICAgICAgICAgIHN0b3JhZ2VJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIHN0b3JhZ2UKICAgICAgICB9CiAgICB9CgogICAgLy8gQXBsaWNhdGl2byBNw7N2ZWwgQW5kcm9pZC9pT1MKICAgIGRlcGxveW1lbnROb2RlICJEaXNwb3NpdGl2b3MgTcOzdmVpcyIgIkFjZXNzbyBhbyBQb3J0YWwgdmlhIEFwcCIgIkFuZHJvaWQvaU9TIiB7CiAgICAgICAgbW9iaWxlSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBtb2JpbGUKICAgIH0KfQoKICB9CgogIHZpZXdzIHsKCiAgICBzeXN0ZW1jb250ZXh0IGNtcyAiU3lzdGVtQ29udGV4dCIgewogICAgICBpbmNsdWRlICoKICAgICAgYXV0b0xheW91dCBscgogICAgfQoKICAgIGNvbnRhaW5lciBjbXMgIkNvbnRhaW5lcnMiIHsKICAgICAgaW5jbHVkZSAqCiAgICB9CgogICAgY29tcG9uZW50IHBvcnRhbCAiQ29tcG9uZW50cyIgewogICAgICBpbmNsdWRlICoKICAgIH0KCmR5bmFtaWMgcG9ydGFsIHsKICAgIGFkbWluTm90aWNpYSAtPiBtb2RlbG9Ob3RpY2lhICJTYWx2YSBhIG5vdMOtY2lhIG5vIGJhbmNvIGRlIGRhZG9zIHV0aWxpemFuZG8iCiAgICBtb2RlbG9Ob3RpY2lhIC0+IGRiICJJTlNFUlQgSU5UTyBub3RpY2lhcyAoLi4uKSBWQUxVRVMgKC4uLikiCiAgICBkYiAtPiBtb2RlbG9Ob3RpY2lhICJDb25maXJtYcOnw6NvIGRlIHNhbHZhbWVudG8iCiAgICBtb2RlbG9Ob3RpY2lhIC0+IGFkbWluTm90aWNpYSAiTm90w61jaWEgc2FsdmEgY29tIHN1Y2Vzc28iCgogICAgYWRtaW5Ob3RpY2lhIC0+IG5vdGlmaWNhY2FvUHVibGljYWNhbyAiRGlzcGFyYSBldmVudG8gZGUgbm90aWZpY2HDp8OjbyBkZSBub3ZhIG5vdMOtY2lhIHBhcmEiCiAgICBub3RpZmljYWNhb1B1YmxpY2FjYW8gLT4gZW1haWwgIkVudmlhIGUtbWFpbCBkZSBub3ZhIHB1YmxpY2HDp8OjbyBwYXJhIG9zIGxlaXRvcmVzIHZpYSIKICAgIGVtYWlsIC0+IHJlYWRlciAiRW50cmVnYSBlLW1haWwgZGUgbm92YSBub3TDrWNpYSBwYXJhIgogICAgZW1haWwgLT4gbm90aWZpY2FjYW9QdWJsaWNhY2FvICJDb25maXJtYcOnw6NvIGRlIGVudmlvIGRlIGUtbWFpbCIKICAgIG5vdGlmaWNhY2FvUHVibGljYWNhbyAtPiBhZG1pbk5vdGljaWEgIk5vdGlmaWNhw6fDo28gZW52aWFkYSBjb20gc3VjZXNzbyIKCn0KCmRlcGxveW1lbnQgY21zIHByb2QgewogIGluY2x1ZGUgKgp9CgogICAgdGhlbWUgZGVmYXVsdAogICAgc3R5bGVzIHsKCiMgb3JhbmdlCmVsZW1lbnQgUGVyc29uIHsKICBiYWNrZ3JvdW5kICM4YTQ2MDAKfQplbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICBiYWNrZ3JvdW5kICNiMzYyMDAKfQplbGVtZW50IENvbnRhaW5lciB7CiAgYmFja2dyb3VuZCAJI2ZkYmE2Mgp9CmVsZW1lbnQgQ29tcG9uZW50IHsKICBiYWNrZ3JvdW5kICNmZmUwYjMKfQoKICAgICAgIyB0YWdzCiAgICAgIGVsZW1lbnQgZGIgewogICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgIH0KICAgICAgZWxlbWVudCBxdWV1ZSB7CiAgICAgICAgc2hhcGUgUGlwZQogICAgICB9CiAgICAgIGVsZW1lbnQgbW9iaWxlIHsKICAgICAgICBzaGFwZSBNb2JpbGVEZXZpY2VQb3J0cmFpdAogICAgICB9CiAgICAgIGVsZW1lbnQgc3RvcmFnZSB7CiAgICAgICAgc2hhcGUgRm9sZGVyCiAgICAgIH0KICAgICAgZWxlbWVudCBicm93c2VyIHsKICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgIH0KICAgICAgZWxlbWVudCB3b3JrZXIgewogICAgICAgIHNoYXBlIEhleGFnb24KICAgICAgfQogICAgICBlbGVtZW50IGV4dGVybmFsIHsKICAgICAgICBiYWNrZ3JvdW5kICM3NTg5OTAKICAgICAgfQogICAgfQogIH0KfQ=="
+  },
   "views" : {
-    "systemContextViews" : [ {
-      "key" : "SystemContext",
-      "order" : 1,
-      "softwareSystemId" : "3",
+    "componentViews" : [ {
+      "containerId" : "4",
       "dimensions" : {
-        "width" : 1500,
-        "height" : 1400
+        "height" : 1920,
+        "width" : 3332
       },
-      "automaticLayout" : {
-        "implementation" : "Graphviz",
-        "rankDirection" : "TopBottom",
-        "rankSeparation" : 300,
-        "nodeSeparation" : 300,
-        "edgeSeparation" : 0,
-        "vertices" : false
-      },
-      "enterpriseBoundaryVisible" : true,
-      "relationships" : [ {
-        "id" : "14"
-      }, {
-        "id" : "11"
-      } ],
       "elements" : [ {
-        "id" : "1",
-        "x" : 200,
-        "y" : 199
-      }, {
-        "id" : "2",
-        "x" : 900,
-        "y" : 199
-      }, {
-        "id" : "3",
-        "x" : 525,
-        "y" : 899
-      } ]
-    } ],
-    "containerViews" : [ {
-      "key" : "Containers",
-      "order" : 2,
-      "softwareSystemId" : "3",
-      "paperSize" : "A3_Landscape",
-      "dimensions" : {
-        "width" : 3170,
-        "height" : 2662
-      },
-      "automaticLayout" : {
-        "implementation" : "Graphviz",
-        "rankDirection" : "LeftRight",
-        "rankSeparation" : 300,
-        "nodeSeparation" : 300,
-        "edgeSeparation" : 0,
-        "vertices" : false
-      },
-      "externalSoftwareSystemBoundariesVisible" : true,
-      "relationships" : [ {
-        "id" : "18"
-      }, {
-        "id" : "17"
-      }, {
-        "id" : "16"
-      }, {
-        "id" : "15"
-      }, {
-        "id" : "13",
-        "vertices" : [ {
-          "x" : 1358,
-          "y" : 2008
-        }, {
-          "x" : 1658,
-          "y" : 1379
-        } ]
-      }, {
-        "id" : "12"
-      }, {
-        "id" : "21"
-      }, {
-        "id" : "20"
-      }, {
-        "id" : "10",
-        "vertices" : [ {
-          "x" : 1358,
-          "y" : 1033
-        } ]
-      }, {
-        "id" : "19"
-      } ],
-      "elements" : [ {
-        "id" : "1",
-        "x" : 208,
-        "y" : 833
-      }, {
-        "id" : "2",
-        "x" : 933,
-        "y" : 2037
-      }, {
-        "id" : "4",
-        "x" : 1658,
-        "y" : 929
-      }, {
         "id" : "5",
-        "x" : 2408,
-        "y" : 329
+        "x" : 219,
+        "y" : 185
       }, {
         "id" : "6",
-        "x" : 2408,
-        "y" : 929
+        "x" : 969,
+        "y" : 185
       }, {
         "id" : "7",
-        "x" : 908,
-        "y" : 1183
+        "x" : 1719,
+        "y" : 185
       }, {
         "id" : "8",
-        "x" : 2408,
-        "y" : 1529
+        "x" : 219,
+        "y" : 785
       }, {
         "id" : "9",
-        "x" : 1658,
-        "y" : 1529
+        "x" : 969,
+        "y" : 785
+      }, {
+        "id" : "10",
+        "x" : 1719,
+        "y" : 785
+      }, {
+        "id" : "11",
+        "x" : 2625,
+        "y" : 805
+      }, {
+        "id" : "14",
+        "x" : 990,
+        "y" : 1405
+      }, {
+        "id" : "15",
+        "x" : 2630,
+        "y" : 1370
+      }, {
+        "id" : "16",
+        "x" : 219,
+        "y" : 1385
+      } ],
+      "externalContainerBoundariesVisible" : false,
+      "key" : "Components",
+      "order" : 3,
+      "relationships" : [ {
+        "id" : "27"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "37"
+      }, {
+        "id" : "38"
+      }, {
+        "id" : "39"
+      }, {
+        "id" : "41"
       } ]
     } ],
     "configuration" : {
       "branding" : { },
-      "styles" : { },
-      "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://raw.githubusercontent.com/cassiobotaro/modeloC4/main/cms/theme.json" ],
-      "terminology" : { },
+      "lastSavedView" : "SystemContext",
       "metadataSymbols" : "SquareBrackets",
-      "lastSavedView" : "SystemContext"
-    }
+      "styles" : {
+        "elements" : [ {
+          "background" : "#8a4600",
+          "tag" : "Person"
+        }, {
+          "background" : "#b36200",
+          "tag" : "Software System"
+        }, {
+          "background" : "#fdba62",
+          "tag" : "Container"
+        }, {
+          "background" : "#ffe0b3",
+          "tag" : "Component"
+        }, {
+          "shape" : "Cylinder",
+          "tag" : "db"
+        }, {
+          "shape" : "Pipe",
+          "tag" : "queue"
+        }, {
+          "shape" : "MobileDevicePortrait",
+          "tag" : "mobile"
+        }, {
+          "shape" : "Folder",
+          "tag" : "storage"
+        }, {
+          "shape" : "WebBrowser",
+          "tag" : "browser"
+        }, {
+          "shape" : "Hexagon",
+          "tag" : "worker"
+        }, {
+          "background" : "#758990",
+          "tag" : "external"
+        } ]
+      },
+      "terminology" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ]
+    },
+    "containerViews" : [ {
+      "dimensions" : {
+        "height" : 2480,
+        "width" : 3306
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 125,
+        "y" : 1920
+      }, {
+        "id" : "2",
+        "x" : 165,
+        "y" : 340
+      }, {
+        "id" : "4",
+        "x" : 1020,
+        "y" : 400
+      }, {
+        "id" : "11",
+        "x" : 2520,
+        "y" : 400
+      }, {
+        "id" : "12",
+        "x" : 1855,
+        "y" : 1910
+      }, {
+        "id" : "13",
+        "x" : 1130,
+        "y" : 1810
+      }, {
+        "id" : "14",
+        "x" : 1865,
+        "y" : 985
+      }, {
+        "id" : "15",
+        "x" : 2525,
+        "y" : 965
+      }, {
+        "id" : "16",
+        "x" : 95,
+        "y" : 925
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : false,
+      "key" : "Containers",
+      "order" : 2,
+      "paperSize" : "Slide_4_3",
+      "relationships" : [ {
+        "id" : "17"
+      }, {
+        "id" : "19"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "27"
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "29"
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "40"
+      } ],
+      "softwareSystemId" : "3"
+    } ],
+    "deploymentViews" : [ {
+      "dimensions" : {
+        "height" : 2520,
+        "width" : 4260
+      },
+      "elements" : [ {
+        "id" : "42",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "43",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "44",
+        "x" : 1930,
+        "y" : 235
+      }, {
+        "id" : "45",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "46",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "47",
+        "x" : 1925,
+        "y" : 690
+      }, {
+        "id" : "49",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "50",
+        "x" : 220,
+        "y" : 1745
+      }, {
+        "id" : "52",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "53",
+        "x" : 835,
+        "y" : 695
+      }, {
+        "id" : "56",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "57",
+        "x" : 1930,
+        "y" : 1455
+      }, {
+        "id" : "60",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "61",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "62",
+        "x" : 2950,
+        "y" : 1740
+      }, {
+        "id" : "65",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "66",
+        "x" : 240,
+        "y" : 265
+      }, {
+        "id" : "69",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "70",
+        "x" : 3740,
+        "y" : 225
+      } ],
+      "environment" : "Production",
+      "generatedKey" : true,
+      "key" : "Deployment-001",
+      "order" : 5,
+      "relationships" : [ {
+        "id" : "48"
+      }, {
+        "id" : "51"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "58"
+      }, {
+        "id" : "59"
+      }, {
+        "id" : "63"
+      }, {
+        "id" : "64"
+      }, {
+        "id" : "67"
+      }, {
+        "id" : "68"
+      }, {
+        "id" : "71"
+      } ],
+      "softwareSystemId" : "3"
+    } ],
+    "dynamicViews" : [ {
+      "dimensions" : {
+        "height" : 1344,
+        "width" : 3820
+      },
+      "elementId" : "4",
+      "elements" : [ {
+        "id" : "1",
+        "x" : 3190,
+        "y" : 130
+      }, {
+        "id" : "5",
+        "x" : 969,
+        "y" : 195
+      }, {
+        "id" : "8",
+        "x" : 1719,
+        "y" : 195
+      }, {
+        "id" : "10",
+        "x" : 219,
+        "y" : 195
+      }, {
+        "id" : "11",
+        "x" : 190,
+        "y" : 935
+      }, {
+        "id" : "16",
+        "x" : 2469,
+        "y" : 195
+      } ],
+      "externalBoundariesVisible" : false,
+      "generatedKey" : true,
+      "key" : "Dynamic-001",
+      "order" : 4,
+      "relationships" : [ {
+        "description" : "Salva a notícia no banco de dados utilizando",
+        "id" : "32",
+        "order" : "1",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 819,
+          "y" : 195
+        } ]
+      }, {
+        "description" : "INSERT INTO noticias (...) VALUES (...)",
+        "id" : "41",
+        "order" : "2",
+        "response" : false
+      }, {
+        "description" : "Confirmação de salvamento",
+        "id" : "41",
+        "order" : "3",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 279,
+          "y" : 709
+        } ]
+      }, {
+        "description" : "Notícia salva com sucesso",
+        "id" : "32",
+        "order" : "4",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 819,
+          "y" : 495
+        } ]
+      }, {
+        "description" : "Dispara evento de notificação de nova notícia para",
+        "id" : "33",
+        "order" : "5",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 1569,
+          "y" : 495
+        } ]
+      }, {
+        "description" : "Envia e-mail de nova publicação para os leitores via",
+        "id" : "37",
+        "order" : "6",
+        "response" : false,
+        "vertices" : [ {
+          "x" : 2319,
+          "y" : 495
+        } ]
+      }, {
+        "description" : "Entrega e-mail de nova notícia para",
+        "id" : "30",
+        "order" : "7",
+        "response" : false
+      }, {
+        "description" : "Confirmação de envio de e-mail",
+        "id" : "37",
+        "order" : "8",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 2319,
+          "y" : 195
+        } ]
+      }, {
+        "description" : "Notificação enviada com sucesso",
+        "id" : "33",
+        "order" : "9",
+        "response" : true,
+        "vertices" : [ {
+          "x" : 1569,
+          "y" : 195
+        } ]
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "automaticLayout" : {
+        "applied" : true,
+        "edgeSeparation" : 0,
+        "implementation" : "Graphviz",
+        "nodeSeparation" : 300,
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "vertices" : false
+      },
+      "dimensions" : {
+        "height" : 1404,
+        "width" : 2350
+      },
+      "elements" : [ {
+        "id" : "1",
+        "x" : 199,
+        "y" : 769
+      }, {
+        "id" : "2",
+        "x" : 199,
+        "y" : 165
+      }, {
+        "id" : "3",
+        "x" : 949,
+        "y" : 165
+      }, {
+        "id" : "16",
+        "x" : 1699,
+        "y" : 469
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "key" : "SystemContext",
+      "order" : 1,
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "30"
+      } ],
+      "softwareSystemId" : "3"
+    } ]
   }
 }
