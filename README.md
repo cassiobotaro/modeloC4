@@ -6,60 +6,64 @@
 > - [Structurizr DSL Patterns](https://docs.structurizr.com/dsl/patterns/)
 > - [Structurizr DSL FAQ](https://docs.structurizr.com/dsl/faq)
 
-**Update:** Uma atualização foi feita no repositório e os modelos foram reescritos utilizando a ferramenta [Structurizr Lite](https://structurizr.com/help/lite).
-
 Este repositório contém todos os diagramas contidos na apresentação do modelo C4.
+
+> ℹ️ **Nota:** Durante a migração, os exemplos abaixo podem estar quebrados.
 
 ## Gerando os diagramas
 
-### Structurizr lite
+Os diagramas são gerados utilizando a imagem [`structurizr/structurizr`](https://hub.docker.com/r/structurizr/structurizr). As funções abaixo facilitam o uso dos comandos via Docker.
 
-Escrevi uma função para facilitar a utilização do comando:
+### Rodar localmente
+
+Sobe uma instância local do Structurizr para visualizar e editar os diagramas:
 
 ```bash
 # structurizr
-function structurizr() {
-    readonly file=${1:?"The workspace filename must be specified."}
-    if [[ "$file" == *.* ]]; then
-        echo "The workspace filename should not contains a file extension."
-        return 1
-    fi
-    if [[ !  -f "./structurizr.properties" ]]; then
-        echo "structurizr.autoRefreshInterval=2000" > structurizr.properties
-    fi
+function c4_local() {
     docker run --rm -it \
         -p 8080:8080 \
-        -u $(id -u ${USER}):$(id -g ${USER}) \
+        -u $(id -u):$(id -g) \
         -v "$PWD":/usr/local/structurizr/ \
-        -e STRUCTURIZR_WORKSPACE_FILENAME=$file \
-            structurizr/lite
+        -e STRUCTURIZR_AUTOREFRESHINTERVAL=2000 \
+        -e STRUCTURIZR_AUTOSAVEINTERVAL=5000 \
+        -e STRUCTURIZR_THEMES=/usr/local/structurizr-themes \
+        structurizr/structurizr local
 }
 ```
 
-Ela será invocada da seguinte maneira:
+### Exportar diagramas
+
+Exporta os diagramas a partir do `workspace.json` para o diretório `diagrams` no formato escolhido (`png`, `svg`, `mermaid`, etc.):
 
 ```bash
-structurizr nome_do_arquivo_sem_extensão
-```
-
-Para exportar os arquivos em png ou svg, mantenha a instância do structurizr rodando e utilize a seguinte função descrita abaixo.
-
-```sh
-function export_c4(){
-    readonly format=${1:?"The format must be specified."}
-    [ ! -f export-diagram.js ] && wget https://github.com/cassiobotaro/modeloC4/raw/main/export-diagram.js
-    text=$(docker run -i --init --cap-add=SYS_ADMIN --net=host --name=exporter ghcr.io/puppeteer/puppeteer:latest node -e "$(cat export-diagrams.js)"  "" "http://localhost:8080" "$format")
-    files=($(echo "$text" | grep -o "\S*\.$format"))
-    for file in "${files[@]}"
-    do
-        docker cp exporter:/home/pptruser/"$file" .
-    done
-    docker rm exporter
+# structurizr export
+function c4_export(){
+    local format=${1:?"The format must be specified."}
+    docker run --rm -it \
+        -u $(id -u):$(id -g) \
+        -v "$PWD":/usr/local/structurizr/ \
+        structurizr/structurizr export -workspace workspace.json -format ${format} -output diagrams
 }
 ```
 
-Ela será invocada da seguinte maneira:
+Invocação:
 
 ```bash
-export_c4 png
+c4_export png
+```
+
+### Playground
+
+Sobe um playground do Structurizr para experimentações rápidas:
+
+```bash
+# structurizr playground
+function c4_play() {
+    docker run --rm -it \
+        -p 8081:8081 \
+        -e PORT=8081 \
+        -e STRUCTURIZR_THEMES=/usr/local/structurizr-themes \
+        structurizr/structurizr playground
+}
 ```
