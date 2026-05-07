@@ -18,6 +18,8 @@ Os diagramas são gerados utilizando a imagem [`structurizr/structurizr`](https:
 
 Sobe uma instância local do Structurizr para visualizar e editar os diagramas:
 
+> 💡 **Dica:** Para ver algum exemplo rodando, basta entrar no diretório correspondente (ex.: `cd niveis`) e executar `c4_local`. O resultado estará disponível em [http://localhost:8080](http://localhost:8080).
+
 ```bash
 # structurizr
 function c4_local() {
