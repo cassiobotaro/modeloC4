@@ -1,5 +1,11 @@
 # Modelo C4 para documentação de arquiteturas
 
+> ⚠️ **Aviso:** Este repositório está em manutenção. Seu conteúdo será substituído por algo mais completo, baseado nas seguintes referências da documentação oficial do Structurizr:
+>
+> - [Structurizr DSL Cookbook](https://docs.structurizr.com/dsl/cookbook/)
+> - [Structurizr DSL Patterns](https://docs.structurizr.com/dsl/patterns/)
+> - [Structurizr DSL FAQ](https://docs.structurizr.com/dsl/faq)
+
 **Update:** Uma atualização foi feita no repositório e os modelos foram reescritos utilizando a ferramenta [Structurizr Lite](https://structurizr.com/help/lite).
 
 Este repositório contém todos os diagramas contidos na apresentação do modelo C4.
