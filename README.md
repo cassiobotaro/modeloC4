@@ -6,7 +6,7 @@
 > - [Structurizr DSL Patterns](https://docs.structurizr.com/dsl/patterns/)
 > - [Structurizr DSL FAQ](https://docs.structurizr.com/dsl/faq)
 
-Este repositório contém todos os diagramas contidos na apresentação do modelo C4.
+Este repositório contém todos os diagramas contidos na [apresentação do modelo C4](slides.pdf).
 
 > ℹ️ **Nota:** Durante a migração, os exemplos abaixo podem estar quebrados.
 
