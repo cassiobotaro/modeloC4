@@ -36,7 +36,7 @@ function c4_local() {
 
 ### Exportar diagramas
 
-Exporta os diagramas a partir do `workspace.json` para o diretório `diagrams` no formato escolhido (`png`, `svg`, `mermaid`, etc.):
+Exporta os diagramas a partir do `workspace.json` para o diretório `diagrams` no formato escolhido (`plantuml`, `mermaid`, `dot`, `d2`, `json`, `static`, etc.):
 
 ```bash
 # structurizr export
@@ -52,7 +52,7 @@ function c4_export(){
 Invocação:
 
 ```bash
-c4_export png
+c4_export mermaid
 ```
 
 ### Playground
